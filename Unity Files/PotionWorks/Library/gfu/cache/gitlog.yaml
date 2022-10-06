@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2022-10-05T22:23:05.457-04:00
+  initializedAtString: 2022-10-05T22:18:38.477-04:00
+  log:
+  - commitID: 5b19a200bf0ddb6a3bb40ea4b6da8224ab18aebf
+    mergeA: 
+    mergeB: 
+    authorName: Elliot Gong
+    authorEmail: 64229525+thetyper101@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2022-10-04T15:02:12.000-04:00
+    commitTimeString: 2022-10-04T15:02:12.000-04:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\.gitignore
+      projectPath: ..\..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\README.md
+      projectPath: ..\..\README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
