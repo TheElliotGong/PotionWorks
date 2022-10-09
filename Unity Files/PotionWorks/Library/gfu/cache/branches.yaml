@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-10-09T11:09:38.621-04:00
-  initializedAtString: 2022-10-09T10:33:57.121-04:00
+  lastUpdatedAtString: 2022-10-09T12:10:08.809-04:00
+  initializedAtString: 2022-10-09T12:06:15.696-04:00
   localBranches:
+  - name: current
+    tracking: origin/current
   - name: main
     tracking: origin/main
   remoteBranches:
+  - name: origin/current
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
@@ -33,8 +37,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - current
     - main
     values:
+    - name: current
+      remote:
+        name: origin
+        url: https://github.com/thetyper101/PotionWorks.git
+      trackingBranch: current
     - name: main
       remote:
         name: origin
@@ -45,10 +55,16 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - current
       - HEAD
       - main
     subKeyValues:
     - Values:
+      - name: current
+        remote:
+          name: origin
+          url: https://github.com/thetyper101/PotionWorks.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin

@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 549824386}
   - component: {fileID: 549824385}
   m_Layer: 5
-  m_Name: Level_Select_Title
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 902619409}
   - component: {fileID: 902619408}
   m_Layer: 5
-  m_Name: Return_to_Menu
+  m_Name: Back_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -978,7 +978,7 @@ GameObject:
   - component: {fileID: 1414944873}
   - component: {fileID: 1414944877}
   m_Layer: 5
-  m_Name: Level_Grid
+  m_Name: Level_Select_Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1108,8 +1108,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1511823566
-RectTransform:
+--- !u!4 &1511823566
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1122,11 +1122,6 @@ RectTransform:
   m_Father: {fileID: 902619407}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511823567
 MonoBehaviour:
   m_ObjectHideFlags: 0
