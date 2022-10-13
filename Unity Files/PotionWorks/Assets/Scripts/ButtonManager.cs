@@ -7,7 +7,7 @@ public class ButtonManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public string sceneName; //The name of the scene/level we want to load.
-    public GameObject pauseMenu; //The pause menu that will pop up when we click the pause button.
+   [SerializeField] GameObject pauseMenu; //The pause menu that will pop up when we click the pause button.
     
     public void QuitGame()
     {

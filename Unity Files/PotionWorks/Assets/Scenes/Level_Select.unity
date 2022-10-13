@@ -590,6 +590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Menu
+  pauseMenu: {fileID: 0}
 --- !u!1 &1050377879
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level_1
+  pauseMenu: {fileID: 0}
 --- !u!1 &1183971452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,6 +1018,7 @@ GameObject:
   - component: {fileID: 1414944874}
   - component: {fileID: 1414944873}
   - component: {fileID: 1414944877}
+  - component: {fileID: 1414944878}
   m_Layer: 5
   m_Name: Level_Select_Options
   m_TagString: Untagged
@@ -1130,6 +1133,14 @@ MonoBehaviour:
   m_Spacing: {x: 15, y: 15}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!222 &1414944878
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414944872}
+  m_CullTransparentMesh: 1
 --- !u!1 &1534579605
 GameObject:
   m_ObjectHideFlags: 0

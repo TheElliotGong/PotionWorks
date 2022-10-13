@@ -297,7 +297,6 @@ GameObject:
   - component: {fileID: 265939326}
   - component: {fileID: 265939325}
   - component: {fileID: 265939324}
-  - component: {fileID: 265939327}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -369,7 +368,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 265939327}
+      - m_Target: {fileID: 2089478849}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
@@ -419,20 +418,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265939322}
   m_CullTransparentMesh: 1
---- !u!114 &265939327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265939322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58973b5e5d01729449f0aeda2af565b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Level_1
-  pauseMenu: {fileID: 0}
 --- !u!1 &799582814
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +889,7 @@ GameObject:
   - component: {fileID: 1270424604}
   - component: {fileID: 1270424603}
   - component: {fileID: 1270424602}
+  - component: {fileID: 1270424606}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1008,12 +994,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270424601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30, y: 48, z: 0}
+  m_LocalPosition: {x: -12, y: 26.9, z: 0}
   m_LocalScale: {x: 100, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1270424606
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270424601}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
 --- !u!1 &1375280196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,7 +2007,6 @@ GameObject:
   - component: {fileID: 2142856459}
   - component: {fileID: 2142856458}
   - component: {fileID: 2142856457}
-  - component: {fileID: 2142856460}
   m_Layer: 5
   m_Name: Pause_UI
   m_TagString: Untagged
@@ -2094,21 +2100,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &2142856460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142856455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 002b49bce7df82f42b322ebfe32786a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 2142856455}
-  pauseButton: {fileID: 0}
-  isPaused: 0
 --- !u!1001 &7299904260833421322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2165,8 +2156,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7299904262130116488, guid: 2929e063e68ad0b4f981cfdc6c281a9f, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299904262130116488, guid: 2929e063e68ad0b4f981cfdc6c281a9f, type: 3}
       propertyPath: m_GravityScale
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299904262130116488, guid: 2929e063e68ad0b4f981cfdc6c281a9f, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2929e063e68ad0b4f981cfdc6c281a9f, type: 3}
