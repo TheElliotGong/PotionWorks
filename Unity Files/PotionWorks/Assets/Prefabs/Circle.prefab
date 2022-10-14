@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7299904262130116491}
   - component: {fileID: 7299904262130116490}
   - component: {fileID: 7299904262130116488}
+  - component: {fileID: 6624358874416018834}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -121,3 +122,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6624358874416018834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299904262130116468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e9c168e3023db4c808ccba730e1b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trap: {fileID: 2616430164454652925, guid: 899797cc29b6f9f43806d4ba258078f6, type: 3}
+  pot: {fileID: 3006333662683704066, guid: 7da868137e86341498fd18166314aaf5, type: 3}
+  score: {fileID: 3086269251699008112, guid: d4b315911869c6c4ea4424a567c04d8f, type: 3}
+  points: 20
+  weakness: 0

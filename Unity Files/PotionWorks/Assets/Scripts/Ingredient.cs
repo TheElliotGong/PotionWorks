@@ -30,14 +30,21 @@ public class Ingredient : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (typeOfTrap == weakness && collision.gameObject == trap)
+        if (typeOfTrap == weakness && collision.gameObject.tag.Equals("Trap"))
         {
             Destroy(gameObject);
         }
 
 
+    }
+    /// <summary>
+    /// Destroy the ingredient if it goes off the screen.
+    /// </summary>
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
     }
 
 
