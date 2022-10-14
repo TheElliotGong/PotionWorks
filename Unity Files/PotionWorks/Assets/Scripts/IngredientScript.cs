@@ -8,8 +8,8 @@ public class IngredientScript : PlayableAsset
 {
     // Factory method that generates a playable based on this asset
     public int points;
-    public bool destroyed;
-
+    enum weakness {red, green, blue };
+    
 
     void Start()
     {
