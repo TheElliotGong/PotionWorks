@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7299904262130116468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.1, y: 4.3, z: 111.312874}
+  m_LocalPosition: {x: 32.1, y: 4.3, z: 0.2}
   m_LocalScale: {x: 12.772501, y: 12.772501, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,7 +120,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &6624358874416018834
 MonoBehaviour:
@@ -136,6 +136,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trap: {fileID: 2616430164454652925, guid: 899797cc29b6f9f43806d4ba258078f6, type: 3}
   pot: {fileID: 3006333662683704066, guid: 7da868137e86341498fd18166314aaf5, type: 3}
-  score: {fileID: 3086269251699008112, guid: d4b315911869c6c4ea4424a567c04d8f, type: 3}
+  score: {fileID: 0}
   points: 20
   weakness: 0
