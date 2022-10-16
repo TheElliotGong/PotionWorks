@@ -11,32 +11,15 @@ public class Ingredient : MonoBehaviour
     public GameObject pot;
     public Text score;
     public int points;
-    public byte weakness;
     
-    void Start()
-    {
-        
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.transform.tag == trap.tag)
         {
             Destroy(gameObject);
         }
-            
-        
     }
-
-
 
     /// <summary>
     /// Destroy the ingredient if it goes off the screen.
@@ -46,7 +29,6 @@ public class Ingredient : MonoBehaviour
         
         Destroy(gameObject);
     }
-
 
     public void AddScore()
     {

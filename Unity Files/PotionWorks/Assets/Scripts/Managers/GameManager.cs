@@ -13,17 +13,21 @@ public class GameManager : MonoBehaviour
     public static event Action<GameState> OnGameStateChanged;
     public GameState state;
     public GameObject pauseUI;
-    public int ingredientCount;
+    public GameObject ingredientManager;
     public int currentScore;
     public Text Score;
-
     public PlayerControls player;
+
+    public List<GameObject> ingredients;
+    public Dictionary<string, Level> levels;
+
 
     private void Awake()
     {
         if(instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(this);
         }
         else
         {
@@ -74,6 +78,7 @@ public class GameManager : MonoBehaviour
 
                 break;
             case GameState.gamePlay:
+
                 break;
             case GameState.pause:
                 break;
