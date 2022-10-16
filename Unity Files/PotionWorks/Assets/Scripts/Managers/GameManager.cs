@@ -8,18 +8,17 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public enum GameState { menu, levelSelect, gamePlay, pause, levelVictory, levelDefeat, gameVictory }
+    public enum GameState { gamePlay, pause, levelVictory, levelDefeat}
 
     public static event Action<GameState> OnGameStateChanged;
     public GameState state;
     public GameObject pauseUI;
     public GameObject ingredientManager;
     public int currentScore;
-    public Text Score;
-    public PlayerControls player;
+    public Text score;
 
-    public List<GameObject> ingredients;
-    public Dictionary<string, Level> levels;
+
+    private List<GameObject> ingredients;
 
 
     private void Awake()
@@ -39,12 +38,7 @@ public class GameManager : MonoBehaviour
     {
         switch(newState)
         {
-            case GameState.menu:
 
-                break;
-            case GameState.levelSelect:
-
-                break;
             case GameState.gamePlay:
                 break;
             case GameState.pause:
@@ -53,8 +47,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.levelDefeat:
                 break;
-            case GameState.gameVictory:
-                break;
+
             default:
                 throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
         }
@@ -62,7 +55,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        UpdateState(GameState.menu);
+
 
     }
 
@@ -71,12 +64,6 @@ public class GameManager : MonoBehaviour
     {
         switch (state)
         {
-            case GameState.menu:
-
-                break;
-            case GameState.levelSelect:
-
-                break;
             case GameState.gamePlay:
 
                 break;
@@ -86,11 +73,13 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.levelDefeat:
                 break;
-            case GameState.gameVictory:
-                break;
         }
     }
     
+    public void AddScore(GameObject ingredient)
+    {
+
+    }
 }
 
 

@@ -691,6 +691,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &477461791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4492643748129489996, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+  m_PrefabInstance: {fileID: 1371229845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77801b79b08a2684dba92f3f89352acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &549824383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,6 +1171,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902619406}
   m_CullTransparentMesh: 1
+--- !u!114 &913428724 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4492643748129489996, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+  m_PrefabInstance: {fileID: 147292224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77801b79b08a2684dba92f3f89352acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &944474213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1587,8 +1609,8 @@ MonoBehaviour:
   textObj: {fileID: 292082972}
   levelNum: 2
   playerScore: 0
-  nextLevel: {fileID: 0}
-  status: 1
+  nextLevel: {fileID: 1151176746}
+  status: 0
 --- !u!1001 &1151176742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1724,8 +1746,8 @@ MonoBehaviour:
   textObj: {fileID: 1151176744}
   levelNum: 3
   playerScore: 0
-  nextLevel: {fileID: 0}
-  status: 1
+  nextLevel: {fileID: 913428724}
+  status: 0
 --- !u!224 &1161484822 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8346274238673790330, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
@@ -1852,6 +1874,10 @@ PrefabInstance:
       propertyPath: levelNum
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4492643748129489996, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: nextLevel
+      value: 
+      objectReference: {fileID: 1083434678}
     - target: {fileID: 8346274238673790329, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
       propertyPath: m_Name
       value: Level 1
@@ -1939,6 +1965,18 @@ PrefabInstance:
     - target: {fileID: 8346274238673790330, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 477461791}
+    - target: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Level, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
@@ -2885,6 +2923,18 @@ PrefabInstance:
     - target: {fileID: 8346274238673790330, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1083434678}
+    - target: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Level, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
