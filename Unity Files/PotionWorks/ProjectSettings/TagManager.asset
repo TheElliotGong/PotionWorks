@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Trap
   - Green_Trap
+  - Red_Trap
+  - Blue_Trap
   layers:
   - Default
   - TransparentFX
