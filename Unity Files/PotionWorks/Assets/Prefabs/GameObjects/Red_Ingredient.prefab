@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4764752959977404784}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.552826, y: 65.4, z: 0}
-  m_LocalScale: {x: 12.772501, y: 12.772501, z: 0}
+  m_LocalPosition: {x: -25.552826, y: 65.4, z: 0.5}
+  m_LocalScale: {x: 30, y: 30, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -138,4 +138,3 @@ MonoBehaviour:
   pot: {fileID: 3006333662683704066, guid: 7da868137e86341498fd18166314aaf5, type: 3}
   score: {fileID: 0}
   points: 20
-  weakness: 0

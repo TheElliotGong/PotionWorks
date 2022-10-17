@@ -1,13 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - ButtonManager
     - Ingredient
     - Level
     - LevelManager
     - MainMenu
     - PlayerControls
-    - Trap
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.BranchesCache
@@ -34,8 +34,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -188,8 +186,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3230}
-    - Class: 114
       Script: {instanceID: 3376}
     - Class: 114
       Script: {instanceID: 3488}
@@ -230,6 +226,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -248,6 +248,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3488}
     - Class: 114
       Script: {instanceID: 3868}
+    - Class: 114
+      Script: {instanceID: 18040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -845,10 +847,16 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 72819d11cc449322c3ebd567676f07d7
+      Hash: 73740c983ece2c41a4d6e228c4fb5c09
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

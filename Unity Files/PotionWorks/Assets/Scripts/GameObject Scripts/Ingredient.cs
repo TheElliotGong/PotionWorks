@@ -11,12 +11,16 @@ public class Ingredient : MonoBehaviour
     public GameObject pot;
     public Text score;
     public int points;
-    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == trap.tag)
         {
+            Destroy(gameObject);
+        }
+        else if(collision.gameObject.name == "Cauldron")
+        {
+            AddScore();
             Destroy(gameObject);
         }
     }
@@ -32,6 +36,8 @@ public class Ingredient : MonoBehaviour
 
     public void AddScore()
     {
-        
+        int currentScore = Int32.Parse(score.text);
+        currentScore += points;
+        score.text = currentScore.ToString();
     }
 }

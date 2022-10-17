@@ -2102,7 +2102,6 @@ GameObject:
   - component: {fileID: 1414944873}
   - component: {fileID: 1414944877}
   - component: {fileID: 1414944878}
-  - component: {fileID: 1414944879}
   m_Layer: 5
   m_Name: Level_Select_Options
   m_TagString: Untagged
@@ -2238,35 +2237,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414944872}
   m_CullTransparentMesh: 1
---- !u!114 &1414944879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414944872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aebd601e4f1717e468daea08bfa5518a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelButtons:
-  - {fileID: 282572313}
-  - {fileID: 1083434674}
-  - {fileID: 1151176747}
-  - {fileID: 263417417}
-  - {fileID: 1194273678}
-  - {fileID: 954277639}
-  - {fileID: 948241261}
-  - {fileID: 1437806595}
-  - {fileID: 106700369}
-  - {fileID: 1325861528}
-  - {fileID: 1510905465}
-  - {fileID: 439362202}
-  - {fileID: 1378712764}
-  - {fileID: 1660138350}
-  - {fileID: 386200365}
-  - {fileID: 1063858558}
 --- !u!1 &1419961241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,6 +2462,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1573903778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1573903779}
+  - component: {fileID: 1573903780}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1573903779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573903778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -65.85594, y: 14.307529, z: -64580.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573903780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573903778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebd601e4f1717e468daea08bfa5518a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelButtons:
+  - {fileID: 282572313}
+  - {fileID: 1083434674}
+  - {fileID: 1151176747}
+  - {fileID: 263417417}
+  - {fileID: 1194273678}
+  - {fileID: 954277639}
+  - {fileID: 948241261}
+  - {fileID: 1437806595}
+  - {fileID: 106700369}
+  - {fileID: 1325861528}
+  - {fileID: 1510905465}
+  - {fileID: 439362202}
+  - {fileID: 1378712764}
+  - {fileID: 1660138350}
+  - {fileID: 386200365}
+  - {fileID: 1063858558}
 --- !u!114 &1660138350 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8346274238673790331, guid: b74c9bf976ab7ca479d2acb9eb206b83, type: 3}
