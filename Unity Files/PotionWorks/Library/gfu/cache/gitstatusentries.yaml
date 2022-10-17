@@ -13,30 +13,115 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-10-16T13:40:59.835-04:00
-  initializedAtString: 2022-10-16T13:18:08.460-04:00
+  lastUpdatedAtString: 2022-10-16T22:52:40.695-04:00
+  initializedAtString: 2022-10-16T20:29:54.011-04:00
   entries:
+  - path: Unity Files\PotionWorks\Assets\Prefabs\UI\Level Selection\Level.prefab
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Prefabs\UI\Level
+      Selection\Level.prefab
+    projectPath: Assets\Prefabs\UI\Level Selection\Level.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Assets\Scenes\Credits.unity
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Credits.unity
+    projectPath: Assets\Scenes\Credits.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Assets\Scenes\Credits.unity.meta
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Credits.unity.meta
+    projectPath: Assets\Scenes\Credits.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Assets\Scenes\Images.meta
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Images.meta
+    projectPath: Assets\Scenes\Images.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Assets\Scenes\Images\test.jpg
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Images\test.jpg
+    projectPath: Assets\Scenes\Images\test.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Assets\Scenes\Images\test.jpg.meta
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Images\test.jpg.meta
+    projectPath: Assets\Scenes\Images\test.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Unity Files\PotionWorks\Assets\Scenes\Level_Select.unity
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Level_Select.unity
     projectPath: Assets\Scenes\Level_Select.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Assets\Scenes\Levels\Level.unity
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Levels\Level.unity
+    projectPath: Assets\Scenes\Levels\Level.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Assets\Scenes\Levels\Level.unity.meta
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Levels\Level.unity.meta
+    projectPath: Assets\Scenes\Levels\Level.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Assets\Scenes\Levels\Level_1.unity
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Levels\Level_1.unity
+    projectPath: Assets\Scenes\Levels\Level_1.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Unity Files\PotionWorks\Assets\Scenes\Levels\Level_1.unity.meta
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Levels\Level_1.unity.meta
+    projectPath: Assets\Scenes\Levels\Level_1.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Unity Files\PotionWorks\Assets\Scenes\Levels\Level_2.unity
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Levels\Level_2.unity
     projectPath: Assets\Scenes\Levels\Level_2.unity
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Unity Files\PotionWorks\Assets\Scenes\Levels\Level_2.unity.meta
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Levels\Level_2.unity.meta
     projectPath: Assets\Scenes\Levels\Level_2.unity.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Unity Files\PotionWorks\Assets\Scenes\Menu.unity
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\Menu.unity
+    projectPath: Assets\Scenes\Menu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Unity Files\PotionWorks\Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Unity Files\PotionWorks\Assets\Scripts\Managers\GameManager.cs
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scripts\Managers\GameManager.cs
     projectPath: Assets\Scripts\Managers\GameManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Assets\Scripts\Managers\Level.cs
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scripts\Managers\Level.cs
+    projectPath: Assets\Scripts\Managers\Level.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -44,83 +129,859 @@ MonoBehaviour:
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scripts\Managers\LevelManager.cs
     projectPath: Assets\Scripts\Managers\LevelManager.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Assets\Scripts\Managers\LevelManager.cs.meta
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scripts\Managers\LevelManager.cs.meta
-    projectPath: Assets\Scripts\Managers\LevelManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\globalgamemanagers
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\globalgamemanagers
-    projectPath: Builds\PotionWorks_Data\globalgamemanagers
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Assets\Scripts\Managers\MainMenu.cs
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Assets\Scripts\Managers\MainMenu.cs
+    projectPath: Assets\Scripts\Managers\MainMenu.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\globalgamemanagers.assets
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\globalgamemanagers.assets
-    projectPath: Builds\PotionWorks_Data\globalgamemanagers.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\level0
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\level0
-    projectPath: Builds\PotionWorks_Data\level0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\level1
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\level1
-    projectPath: Builds\PotionWorks_Data\level1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWOrks_Data\level2
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWOrks_Data\level2
-    projectPath: Builds\PotionWOrks_Data\level2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWOrks_Data\level3
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWOrks_Data\level3
-    projectPath: Builds\PotionWOrks_Data\level3
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+    projectPath: Builds\build2\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\Managed\Assembly-CSharp.dll
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\Managed\Assembly-CSharp.dll
-    projectPath: Builds\PotionWorks_Data\Managed\Assembly-CSharp.dll
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+    projectPath: Builds\build2\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\sharedassets0.assets
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\sharedassets0.assets
-    projectPath: Builds\PotionWorks_Data\sharedassets0.assets
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWorks_Data\sharedassets1.assets
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWorks_Data\sharedassets1.assets
-    projectPath: Builds\PotionWorks_Data\sharedassets1.assets
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWOrks_Data\sharedassets2.assets
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWOrks_Data\sharedassets2.assets
-    projectPath: Builds\PotionWOrks_Data\sharedassets2.assets
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\machine.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\machine.config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\2.0\machine.config
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWOrks_Data\sharedassets2.assets.resS
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWOrks_Data\sharedassets2.assets.resS
-    projectPath: Builds\PotionWOrks_Data\sharedassets2.assets.resS
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\settings.map
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\settings.map
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\2.0\settings.map
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Builds\PotionWOrks_Data\sharedassets3.assets
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\PotionWOrks_Data\sharedassets3.assets
-    projectPath: Builds\PotionWOrks_Data\sharedassets3.assets
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\web.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\2.0\web.config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\2.0\web.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\machine.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\machine.config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.0\machine.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\settings.map
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\settings.map
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.0\settings.map
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\web.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.0\web.config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.0\web.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\machine.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\machine.config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.5\machine.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\settings.map
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\settings.map
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.5\settings.map
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\web.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\4.5\web.config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\4.5\web.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\browscap.ini
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\browscap.ini
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\browscap.ini
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\config
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\mconfig\config.xml
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\MonoBleedingEdge\etc\mono\mconfig\config.xml
+    projectPath: Builds\build2\MonoBleedingEdge\etc\mono\mconfig\config.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks.exe
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks.exe
+    projectPath: Builds\build2\PotionWOrks.exe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\app.info
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\app.info
+    projectPath: Builds\build2\PotionWOrks_Data\app.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\boot.config
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\boot.config
+    projectPath: Builds\build2\PotionWOrks_Data\boot.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\globalgamemanagers
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\globalgamemanagers
+    projectPath: Builds\build2\PotionWOrks_Data\globalgamemanagers
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\globalgamemanagers.assets
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\globalgamemanagers.assets
+    projectPath: Builds\build2\PotionWOrks_Data\globalgamemanagers.assets
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level0
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level0
+    projectPath: Builds\build2\PotionWOrks_Data\level0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level1
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level1
+    projectPath: Builds\build2\PotionWOrks_Data\level1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level2
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level2
+    projectPath: Builds\build2\PotionWOrks_Data\level2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level3
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\level3
+    projectPath: Builds\build2\PotionWOrks_Data\level3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Assembly-CSharp.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Assembly-CSharp.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Mono.Security.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Mono.Security.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Mono.Security.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\mscorlib.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\mscorlib.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\mscorlib.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\netstandard.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\netstandard.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\netstandard.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.ComponentModel.Composition.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.ComponentModel.Composition.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.ComponentModel.Composition.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Configuration.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Configuration.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Configuration.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Core.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Core.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Core.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Data.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Data.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Data.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Diagnostics.StackTrace.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Diagnostics.StackTrace.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Diagnostics.StackTrace.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Drawing.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Drawing.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Drawing.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.EnterpriseServices.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.EnterpriseServices.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.EnterpriseServices.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Globalization.Extensions.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Globalization.Extensions.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Globalization.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.IO.Compression.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.IO.Compression.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.IO.Compression.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.IO.Compression.FileSystem.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.IO.Compression.FileSystem.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.IO.Compression.FileSystem.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Net.Http.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Net.Http.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Net.Http.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Numerics.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Numerics.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Runtime.Serialization.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Runtime.Serialization.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Runtime.Serialization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Runtime.Serialization.Xml.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Runtime.Serialization.Xml.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Runtime.Serialization.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.ServiceModel.Internals.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.ServiceModel.Internals.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.ServiceModel.Internals.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Transactions.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Transactions.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Transactions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Xml.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Xml.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Xml.Linq.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Xml.Linq.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Xml.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Xml.XPath.XDocument.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\System.Xml.XPath.XDocument.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\System.Xml.XPath.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Animation.Runtime.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Animation.Runtime.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Animation.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Animation.Triangle.Runtime.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Animation.Triangle.Runtime.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Animation.Triangle.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Common.Runtime.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Common.Runtime.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.2D.Common.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.IK.Runtime.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.IK.Runtime.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.2D.IK.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.PixelPerfect.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.PixelPerfect.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.2D.PixelPerfect.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.SpriteShape.Runtime.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.2D.SpriteShape.Runtime.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.2D.SpriteShape.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.InternalAPIEngineBridge.001.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.InternalAPIEngineBridge.001.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.InternalAPIEngineBridge.001.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.Mathematics.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.Mathematics.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.Mathematics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.TextMeshPro.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.Timeline.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\Unity.Timeline.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AccessibilityModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AccessibilityModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AccessibilityModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AIModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AIModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AndroidJNIModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AndroidJNIModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AndroidJNIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AnimationModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AnimationModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AnimationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ARModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ARModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ARModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AssetBundleModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AssetBundleModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AudioModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AudioModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.AudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClothModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClothModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClothModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClusterInputModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClusterInputModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClusterInputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClusterRendererModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClusterRendererModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ClusterRendererModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.CoreModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.CoreModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.CoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.CrashReportingModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.CrashReportingModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.CrashReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.DirectorModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.DirectorModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.DirectorModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.DSPGraphModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.DSPGraphModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.DSPGraphModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GameCenterModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GameCenterModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GameCenterModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GIModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GIModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GridModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GridModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.GridModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.HotReloadModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.HotReloadModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.HotReloadModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ImageConversionModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ImageConversionModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ImageConversionModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.IMGUIModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.IMGUIModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.IMGUIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.InputLegacyModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.InputLegacyModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.InputLegacyModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.InputModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.InputModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.InputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.JSONSerializeModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.JSONSerializeModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.JSONSerializeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.LocalizationModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.LocalizationModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.LocalizationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ParticleSystemModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ParticleSystemModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ParticleSystemModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.Physics2DModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.Physics2DModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.Physics2DModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.PhysicsModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.PhysicsModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.PhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ProfilerModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ProfilerModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ProfilerModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SharedInternalsModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SharedInternalsModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SharedInternalsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SpriteMaskModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SpriteMaskModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SpriteMaskModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SpriteShapeModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SpriteShapeModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SpriteShapeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.StreamingModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.StreamingModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.StreamingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SubstanceModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SubstanceModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SubstanceModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SubsystemsModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SubsystemsModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.SubsystemsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TerrainModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TerrainModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TerrainModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TextCoreModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TextCoreModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TextCoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TextRenderingModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TextRenderingModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TextRenderingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TilemapModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TilemapModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TilemapModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TLSModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TLSModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.TLSModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UI.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UI.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIElementsModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIElementsModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIElementsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIElementsNativeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UmbraModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UmbraModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UmbraModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UNETModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UNETModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UNETModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityConnectModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityConnectModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityConnectModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityCurlModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityCurlModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityCurlModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VehiclesModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VehiclesModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VehiclesModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VFXModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VFXModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VFXModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VideoModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VideoModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VideoModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VirtualTexturingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VRModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VRModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.VRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.WindModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.WindModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.WindModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.XRModule.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Managed\UnityEngine.XRModule.dll
+    projectPath: Builds\build2\PotionWOrks_Data\Managed\UnityEngine.XRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Resources\unity
+      default resources
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Resources\unity
+      default resources
+    projectPath: Builds\build2\PotionWOrks_Data\Resources\unity default resources
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Resources\unity_builtin_extra
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\Resources\unity_builtin_extra
+    projectPath: Builds\build2\PotionWOrks_Data\Resources\unity_builtin_extra
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\RuntimeInitializeOnLoads.json
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\RuntimeInitializeOnLoads.json
+    projectPath: Builds\build2\PotionWOrks_Data\RuntimeInitializeOnLoads.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\ScriptingAssemblies.json
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\ScriptingAssemblies.json
+    projectPath: Builds\build2\PotionWOrks_Data\ScriptingAssemblies.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets0.assets
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets0.assets
+    projectPath: Builds\build2\PotionWOrks_Data\sharedassets0.assets
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets0.assets.resS
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets0.assets.resS
+    projectPath: Builds\build2\PotionWOrks_Data\sharedassets0.assets.resS
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets1.assets
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets1.assets
+    projectPath: Builds\build2\PotionWOrks_Data\sharedassets1.assets
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets2.assets
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets2.assets
+    projectPath: Builds\build2\PotionWOrks_Data\sharedassets2.assets
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets2.assets.resS
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets2.assets.resS
+    projectPath: Builds\build2\PotionWOrks_Data\sharedassets2.assets.resS
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets3.assets
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\PotionWOrks_Data\sharedassets3.assets
+    projectPath: Builds\build2\PotionWOrks_Data\sharedassets3.assets
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\UnityCrashHandler64.exe
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\UnityCrashHandler64.exe
+    projectPath: Builds\build2\UnityCrashHandler64.exe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Builds\build2\UnityPlayer.dll
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Builds\build2\UnityPlayer.dll
+    projectPath: Builds\build2\UnityPlayer.dll
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -130,33 +991,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Library\Artifacts\01\01bcf981e89b794079b7b47e81358ee7
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\01\01bcf981e89b794079b7b47e81358ee7
-    projectPath: Library\Artifacts\01\01bcf981e89b794079b7b47e81358ee7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\04\049b4f2175494699f26238fa3ca9c587
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\04\049b4f2175494699f26238fa3ca9c587
-    projectPath: Library\Artifacts\04\049b4f2175494699f26238fa3ca9c587
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\05\05569e2271470b7dd6cd45d0ec4f3586
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\05\05569e2271470b7dd6cd45d0ec4f3586
-    projectPath: Library\Artifacts\05\05569e2271470b7dd6cd45d0ec4f3586
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\06\067457c769bfdf0f1501ed4c80c3c5a8
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\06\067457c769bfdf0f1501ed4c80c3c5a8
-    projectPath: Library\Artifacts\06\067457c769bfdf0f1501ed4c80c3c5a8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\15\15ee6cf97948352e1879ad2c8bbaa469
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\15\15ee6cf97948352e1879ad2c8bbaa469
-    projectPath: Library\Artifacts\15\15ee6cf97948352e1879ad2c8bbaa469
+  - path: Unity Files\PotionWorks\Library\Artifacts\00\00ecfcaf3271f6807f2041b09ed7d602
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\00\00ecfcaf3271f6807f2041b09ed7d602
+    projectPath: Library\Artifacts\00\00ecfcaf3271f6807f2041b09ed7d602
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -164,296 +1001,164 @@ MonoBehaviour:
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\16\16e0b588aabfd441d36e152f40c08034
     projectPath: Library\Artifacts\16\16e0b588aabfd441d36e152f40c08034
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\1c\1cde78e0907a1aec27b4a94cd88a7931
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\1c\1cde78e0907a1aec27b4a94cd88a7931
-    projectPath: Library\Artifacts\1c\1cde78e0907a1aec27b4a94cd88a7931
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\1f\1fc7226021a9bb5ded1783890c6076d8
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\1f\1fc7226021a9bb5ded1783890c6076d8
-    projectPath: Library\Artifacts\1f\1fc7226021a9bb5ded1783890c6076d8
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\27\2711822327ee0e954629eea1a3f36e9e
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\27\2711822327ee0e954629eea1a3f36e9e
-    projectPath: Library\Artifacts\27\2711822327ee0e954629eea1a3f36e9e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\27\273234c73bea729f4fbf8bb04a2e55ff
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\27\273234c73bea729f4fbf8bb04a2e55ff
-    projectPath: Library\Artifacts\27\273234c73bea729f4fbf8bb04a2e55ff
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\29\2980e740e5cb5b3e97e591c07956723d
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\29\2980e740e5cb5b3e97e591c07956723d
-    projectPath: Library\Artifacts\29\2980e740e5cb5b3e97e591c07956723d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\2a\2a86107abf54113995e36509f100cd42
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\2a\2a86107abf54113995e36509f100cd42
-    projectPath: Library\Artifacts\2a\2a86107abf54113995e36509f100cd42
+  - path: Unity Files\PotionWorks\Library\Artifacts\21\2172cc4f7cde4c0313ea8d62db68634c
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\21\2172cc4f7cde4c0313ea8d62db68634c
+    projectPath: Library\Artifacts\21\2172cc4f7cde4c0313ea8d62db68634c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\2c\2cc86cbd81fcda83f46a9ec9fa0f4df6
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\2c\2cc86cbd81fcda83f46a9ec9fa0f4df6
-    projectPath: Library\Artifacts\2c\2cc86cbd81fcda83f46a9ec9fa0f4df6
+  - path: Unity Files\PotionWorks\Library\Artifacts\22\22e9c156c2ad7da254fcf54c718a389e
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\22\22e9c156c2ad7da254fcf54c718a389e
+    projectPath: Library\Artifacts\22\22e9c156c2ad7da254fcf54c718a389e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\2c\2cd93a098db1f461267ca91034a82b48
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\2c\2cd93a098db1f461267ca91034a82b48
-    projectPath: Library\Artifacts\2c\2cd93a098db1f461267ca91034a82b48
+  - path: Unity Files\PotionWorks\Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
+    projectPath: Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\30\3091b615844bcbdd3776087ca6c2c1ca
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\30\3091b615844bcbdd3776087ca6c2c1ca
-    projectPath: Library\Artifacts\30\3091b615844bcbdd3776087ca6c2c1ca
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\3f\3f7fd601f3fd9bac88f08597fb8cb702
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\3f\3f7fd601f3fd9bac88f08597fb8cb702
+    projectPath: Library\Artifacts\3f\3f7fd601f3fd9bac88f08597fb8cb702
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\36\36a2fd800e561447a50d1ac104e5fdbc
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\36\36a2fd800e561447a50d1ac104e5fdbc
-    projectPath: Library\Artifacts\36\36a2fd800e561447a50d1ac104e5fdbc
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\49\49b7541f5e4b47e93f6da17ba23bc79e
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\49\49b7541f5e4b47e93f6da17ba23bc79e
+    projectPath: Library\Artifacts\49\49b7541f5e4b47e93f6da17ba23bc79e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\3a\3a987c0d134878e65c560e4e0164f9ac
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\3a\3a987c0d134878e65c560e4e0164f9ac
-    projectPath: Library\Artifacts\3a\3a987c0d134878e65c560e4e0164f9ac
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\52\52849ef85a4d85f7bdb750fff7dfcbf5
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\52\52849ef85a4d85f7bdb750fff7dfcbf5
+    projectPath: Library\Artifacts\52\52849ef85a4d85f7bdb750fff7dfcbf5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\40\40c31d8fe326a5f0c9b224c8975e8d9e
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\40\40c31d8fe326a5f0c9b224c8975e8d9e
-    projectPath: Library\Artifacts\40\40c31d8fe326a5f0c9b224c8975e8d9e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\48\48ad3b97f81e77b4c710407cf7ab97bd
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\48\48ad3b97f81e77b4c710407cf7ab97bd
-    projectPath: Library\Artifacts\48\48ad3b97f81e77b4c710407cf7ab97bd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\49\49f850a03d9cdd6a62fb9252274e203f
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\49\49f850a03d9cdd6a62fb9252274e203f
-    projectPath: Library\Artifacts\49\49f850a03d9cdd6a62fb9252274e203f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\4a\4ae5fd18f9e2b355b62f46f955439223
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\4a\4ae5fd18f9e2b355b62f46f955439223
-    projectPath: Library\Artifacts\4a\4ae5fd18f9e2b355b62f46f955439223
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Unity Files\PotionWorks\Library\Artifacts\53\53e4df4745522f0a1fdc1dd502a11f3a
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\53\53e4df4745522f0a1fdc1dd502a11f3a
     projectPath: Library\Artifacts\53\53e4df4745522f0a1fdc1dd502a11f3a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\67\67a50bdc4b0840773730c52c2414bb95
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\67\67a50bdc4b0840773730c52c2414bb95
-    projectPath: Library\Artifacts\67\67a50bdc4b0840773730c52c2414bb95
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Unity Files\PotionWorks\Library\Artifacts\57\5703a56fb1f8d140871c56236a869e5c
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\57\5703a56fb1f8d140871c56236a869e5c
+    projectPath: Library\Artifacts\57\5703a56fb1f8d140871c56236a869e5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\63\63139c834c9c0905d3b60ee25d37cf2d
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\63\63139c834c9c0905d3b60ee25d37cf2d
+    projectPath: Library\Artifacts\63\63139c834c9c0905d3b60ee25d37cf2d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\68\6803baa9534b2e51a780ba5432b67d43
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\68\6803baa9534b2e51a780ba5432b67d43
+    projectPath: Library\Artifacts\68\6803baa9534b2e51a780ba5432b67d43
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Unity Files\PotionWorks\Library\Artifacts\69\69822310ba5b686e2e33f0581eaf8aff
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\69\69822310ba5b686e2e33f0581eaf8aff
     projectPath: Library\Artifacts\69\69822310ba5b686e2e33f0581eaf8aff
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Unity Files\PotionWorks\Library\Artifacts\72\72803492c21bd2dab11b73912011d595
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\72\72803492c21bd2dab11b73912011d595
+    projectPath: Library\Artifacts\72\72803492c21bd2dab11b73912011d595
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\71\71b305b50c29a29946edc14d7a8884b7
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\71\71b305b50c29a29946edc14d7a8884b7
-    projectPath: Library\Artifacts\71\71b305b50c29a29946edc14d7a8884b7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\73\73ca7af8a475095b0a98d420ca6fcfc3
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\73\73ca7af8a475095b0a98d420ca6fcfc3
-    projectPath: Library\Artifacts\73\73ca7af8a475095b0a98d420ca6fcfc3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Unity Files\PotionWorks\Library\Artifacts\76\7677534e6786aea13b916dbdc18e912d
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\76\7677534e6786aea13b916dbdc18e912d
     projectPath: Library\Artifacts\76\7677534e6786aea13b916dbdc18e912d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\76\76b90112c6195963829b40aaa6701b3c
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\76\76b90112c6195963829b40aaa6701b3c
-    projectPath: Library\Artifacts\76\76b90112c6195963829b40aaa6701b3c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Unity Files\PotionWorks\Library\Artifacts\7a\7a6f68354ee870a705ed99cc923fab48
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\7a\7a6f68354ee870a705ed99cc923fab48
     projectPath: Library\Artifacts\7a\7a6f68354ee870a705ed99cc923fab48
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\81\813de55987f948562f22c62a627f08d4
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\81\813de55987f948562f22c62a627f08d4
-    projectPath: Library\Artifacts\81\813de55987f948562f22c62a627f08d4
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\87\8724b88973bcbda448d8f5dc1a137048
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\87\8724b88973bcbda448d8f5dc1a137048
-    projectPath: Library\Artifacts\87\8724b88973bcbda448d8f5dc1a137048
+  - path: Unity Files\PotionWorks\Library\Artifacts\7a\7aa8af44d3222bbc6f7d66d82a8195f5
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\7a\7aa8af44d3222bbc6f7d66d82a8195f5
+    projectPath: Library\Artifacts\7a\7aa8af44d3222bbc6f7d66d82a8195f5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\87\87936746883d61b5cb6fe6acf2a20f84
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\87\87936746883d61b5cb6fe6acf2a20f84
-    projectPath: Library\Artifacts\87\87936746883d61b5cb6fe6acf2a20f84
+  - path: Unity Files\PotionWorks\Library\Artifacts\81\81fbb402c2d552cbe58b9362bd627c73
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\81\81fbb402c2d552cbe58b9362bd627c73
+    projectPath: Library\Artifacts\81\81fbb402c2d552cbe58b9362bd627c73
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\8a\8acf103f3d455b2189e4167227a57527
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\8a\8acf103f3d455b2189e4167227a57527
-    projectPath: Library\Artifacts\8a\8acf103f3d455b2189e4167227a57527
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\84\841671ccdc7e686e0ebb49bb0915da3d
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\84\841671ccdc7e686e0ebb49bb0915da3d
+    projectPath: Library\Artifacts\84\841671ccdc7e686e0ebb49bb0915da3d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\94\94477c2bfaa00ff2bdc313802e0d1e50
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\94\94477c2bfaa00ff2bdc313802e0d1e50
-    projectPath: Library\Artifacts\94\94477c2bfaa00ff2bdc313802e0d1e50
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\8f\8f8001c18063998c59f9e1e817694125
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\8f\8f8001c18063998c59f9e1e817694125
+    projectPath: Library\Artifacts\8f\8f8001c18063998c59f9e1e817694125
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\95\95708913d559e327b3e8bb014f69b6b2
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\95\95708913d559e327b3e8bb014f69b6b2
-    projectPath: Library\Artifacts\95\95708913d559e327b3e8bb014f69b6b2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\9b\9b68a4259e08b6f31743b9aa205f761c
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\9b\9b68a4259e08b6f31743b9aa205f761c
-    projectPath: Library\Artifacts\9b\9b68a4259e08b6f31743b9aa205f761c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Unity Files\PotionWorks\Library\Artifacts\9f\9faeb6f23efb16bf9ed3ca3cf28d9f10
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\9f\9faeb6f23efb16bf9ed3ca3cf28d9f10
     projectPath: Library\Artifacts\9f\9faeb6f23efb16bf9ed3ca3cf28d9f10
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\a4\a4ec6929209baadb60454f89e1c90828
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\a4\a4ec6929209baadb60454f89e1c90828
-    projectPath: Library\Artifacts\a4\a4ec6929209baadb60454f89e1c90828
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\a5\a558097136dcbc303df5288d771d802e
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\a5\a558097136dcbc303df5288d771d802e
-    projectPath: Library\Artifacts\a5\a558097136dcbc303df5288d771d802e
+  - path: Unity Files\PotionWorks\Library\Artifacts\a4\a43adac24dae830b5ba5c364ce24e18f
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\a4\a43adac24dae830b5ba5c364ce24e18f
+    projectPath: Library\Artifacts\a4\a43adac24dae830b5ba5c364ce24e18f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\a9\a9cabd933aa3c910ee3a6df4c29becd5
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\a9\a9cabd933aa3c910ee3a6df4c29becd5
-    projectPath: Library\Artifacts\a9\a9cabd933aa3c910ee3a6df4c29becd5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\ad\adf04e6cb6d0cb44011f2c1a97ce31e8
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\ad\adf04e6cb6d0cb44011f2c1a97ce31e8
-    projectPath: Library\Artifacts\ad\adf04e6cb6d0cb44011f2c1a97ce31e8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\ae\ae8211d657d70a21c8958224c4a2a13b
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\ae\ae8211d657d70a21c8958224c4a2a13b
-    projectPath: Library\Artifacts\ae\ae8211d657d70a21c8958224c4a2a13b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\c0\c0a3ba1df224c1ed1105bc8d0a466a38
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\c0\c0a3ba1df224c1ed1105bc8d0a466a38
-    projectPath: Library\Artifacts\c0\c0a3ba1df224c1ed1105bc8d0a466a38
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\c4\c48fd382486c3fbc93937c9fdf2b6daa
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\c4\c48fd382486c3fbc93937c9fdf2b6daa
-    projectPath: Library\Artifacts\c4\c48fd382486c3fbc93937c9fdf2b6daa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\cb\cbc43d07dc0ae95eac9bac707f172481
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\cb\cbc43d07dc0ae95eac9bac707f172481
-    projectPath: Library\Artifacts\cb\cbc43d07dc0ae95eac9bac707f172481
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\d5\d5ec73bba6ac307f7b6481a3e3074938
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\d5\d5ec73bba6ac307f7b6481a3e3074938
-    projectPath: Library\Artifacts\d5\d5ec73bba6ac307f7b6481a3e3074938
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\d8\d8cc8db6f1f3b6517933ebda878d3092
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\d8\d8cc8db6f1f3b6517933ebda878d3092
-    projectPath: Library\Artifacts\d8\d8cc8db6f1f3b6517933ebda878d3092
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\dd\ddb19082bb89e6a03fe72004e263dffb
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\dd\ddb19082bb89e6a03fe72004e263dffb
-    projectPath: Library\Artifacts\dd\ddb19082bb89e6a03fe72004e263dffb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\e4\e43ce05c63ce89099389763c498725db
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\e4\e43ce05c63ce89099389763c498725db
-    projectPath: Library\Artifacts\e4\e43ce05c63ce89099389763c498725db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\e9\e91b4090961b15cdd96f9b18284a43cd
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\e9\e91b4090961b15cdd96f9b18284a43cd
-    projectPath: Library\Artifacts\e9\e91b4090961b15cdd96f9b18284a43cd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\ea\ea1d0f2ff5269499a12aa20a86afb2d3
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\ea\ea1d0f2ff5269499a12aa20a86afb2d3
-    projectPath: Library\Artifacts\ea\ea1d0f2ff5269499a12aa20a86afb2d3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\ee\ee8361c36f6d68afbe92b258ba7e97b7
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\ee\ee8361c36f6d68afbe92b258ba7e97b7
-    projectPath: Library\Artifacts\ee\ee8361c36f6d68afbe92b258ba7e97b7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Unity Files\PotionWorks\Library\Artifacts\f1\f1d593ee5e7b1ddf1d36d091400e7074
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\f1\f1d593ee5e7b1ddf1d36d091400e7074
-    projectPath: Library\Artifacts\f1\f1d593ee5e7b1ddf1d36d091400e7074
+  - path: Unity Files\PotionWorks\Library\Artifacts\bd\bd6881ac06bc0e10d43d5235f75751af
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\bd\bd6881ac06bc0e10d43d5235f75751af
+    projectPath: Library\Artifacts\bd\bd6881ac06bc0e10d43d5235f75751af
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Library\Artifacts\ff\ff2b2a461fa9ccf8192d32da40af4c51
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\ff\ff2b2a461fa9ccf8192d32da40af4c51
-    projectPath: Library\Artifacts\ff\ff2b2a461fa9ccf8192d32da40af4c51
+  - path: Unity Files\PotionWorks\Library\Artifacts\c5\c5717b88f2c2d8d061e25b3756331fbb
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\c5\c5717b88f2c2d8d061e25b3756331fbb
+    projectPath: Library\Artifacts\c5\c5717b88f2c2d8d061e25b3756331fbb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\d1\d157264a3952f2d62b4750a103533a21
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\d1\d157264a3952f2d62b4750a103533a21
+    projectPath: Library\Artifacts\d1\d157264a3952f2d62b4750a103533a21
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Unity Files\PotionWorks\Library\Artifacts\f3\f35b80cd0b83198196df8d36cfbdfc5a
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\f3\f35b80cd0b83198196df8d36cfbdfc5a
+    projectPath: Library\Artifacts\f3\f35b80cd0b83198196df8d36cfbdfc5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\fb\fb38da0c5fee21d9a727dadb4cdcb6ba
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\fb\fb38da0c5fee21d9a727dadb4cdcb6ba
+    projectPath: Library\Artifacts\fb\fb38da0c5fee21d9a727dadb4cdcb6ba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\Artifacts\ff\ffb13b822ae73a0f63902c5e59930d44
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\Artifacts\ff\ffb13b822ae73a0f63902c5e59930d44
+    projectPath: Library\Artifacts\ff\ffb13b822ae73a0f63902c5e59930d44
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Unity Files\PotionWorks\Library\BuildPlayerData\Editor\TypeDb-All.json
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\BuildPlayerData\Editor\TypeDb-All.json
     projectPath: Library\BuildPlayerData\Editor\TypeDb-All.json
@@ -466,15 +1171,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Unity Files\PotionWorks\Library\EditorInstance.json
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Unity Files\PotionWorks\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -496,9 +1225,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Unity Files\PotionWorks\Library\LastBuild.buildreport
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -536,8 +1277,8 @@ MonoBehaviour:
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\level3
     projectPath: Library\PlayerDataCache\Win64\Data\level3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
     projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
@@ -547,6 +1288,12 @@ MonoBehaviour:
   - path: Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets0.assets
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets0.assets
     projectPath: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets0.assets.resS
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets0.assets.resS
+    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets0.assets.resS
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -562,18 +1309,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets2.assets.resS
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets2.assets.resS
-    projectPath: Library\PlayerDataCache\Win64\Data\sharedassets2.assets.resS
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets3.assets
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\Data\sharedassets3.assets
     projectPath: Library\PlayerDataCache\Win64\Data\sharedassets3.assets
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Unity Files\PotionWorks\Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
     projectPath: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
@@ -589,6 +1330,24 @@ MonoBehaviour:
   - path: Unity Files\PotionWorks\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\Library\ShaderCache\4\463b4a65c57e848672fdb3de8ead01f1.bin
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\ShaderCache\4\463b4a65c57e848672fdb3de8ead01f1.bin
+    projectPath: Library\ShaderCache\4\463b4a65c57e848672fdb3de8ead01f1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\ShaderCache\b\bcc6eebaf908b48bdeb78882847bf2e1.bin
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\ShaderCache\b\bcc6eebaf908b48bdeb78882847bf2e1.bin
+    projectPath: Library\ShaderCache\b\bcc6eebaf908b48bdeb78882847bf2e1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -628,15 +1387,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Unity Files\PotionWorks\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+  - path: Unity Files\PotionWorks\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Unity Files\PotionWorks\ProjectSettings\EditorBuildSettings.asset
     fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\ProjectSettings\EditorBuildSettings.asset
     projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity Files\PotionWorks\ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -682,117 +1447,363 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-066f8e11d855bfa4eb6bdc703199e730
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-066f8e11d855bfa4eb6bdc703199e730
-    projectPath: Temp\UnityTempFile-066f8e11d855bfa4eb6bdc703199e730
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-0ba66294d98607b49927e2bf3a83e5eb
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-0ba66294d98607b49927e2bf3a83e5eb
+    projectPath: Temp\UnityTempFile-0ba66294d98607b49927e2bf3a83e5eb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-13860b8a04fdd9b4bb74317a8df05ea9
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-13860b8a04fdd9b4bb74317a8df05ea9
-    projectPath: Temp\UnityTempFile-13860b8a04fdd9b4bb74317a8df05ea9
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-0c6047edb3276414d9fe7ae82346fa3b
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-0c6047edb3276414d9fe7ae82346fa3b
+    projectPath: Temp\UnityTempFile-0c6047edb3276414d9fe7ae82346fa3b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-334d123552372814aa2281b18251cdb4
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-334d123552372814aa2281b18251cdb4
-    projectPath: Temp\UnityTempFile-334d123552372814aa2281b18251cdb4
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-0d4301bad5dff6c4bbcc25ef75f0eb58
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-0d4301bad5dff6c4bbcc25ef75f0eb58
+    projectPath: Temp\UnityTempFile-0d4301bad5dff6c4bbcc25ef75f0eb58
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-3a68f554cea296c4fa7515709a689492
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-3a68f554cea296c4fa7515709a689492
-    projectPath: Temp\UnityTempFile-3a68f554cea296c4fa7515709a689492
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-121a98b80325a804a921cc20916e295e
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-121a98b80325a804a921cc20916e295e
+    projectPath: Temp\UnityTempFile-121a98b80325a804a921cc20916e295e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-47ed6d3a5ed4df24caaff3b663b73ea8
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-47ed6d3a5ed4df24caaff3b663b73ea8
-    projectPath: Temp\UnityTempFile-47ed6d3a5ed4df24caaff3b663b73ea8
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-191d376f0887baa4fb9164eeff837a95
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-191d376f0887baa4fb9164eeff837a95
+    projectPath: Temp\UnityTempFile-191d376f0887baa4fb9164eeff837a95
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-4ad1dce831c26664fbbcda145f3371d1
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-4ad1dce831c26664fbbcda145f3371d1
-    projectPath: Temp\UnityTempFile-4ad1dce831c26664fbbcda145f3371d1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-1b0d339daf9d67b44949a2624384254f
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-1b0d339daf9d67b44949a2624384254f
+    projectPath: Temp\UnityTempFile-1b0d339daf9d67b44949a2624384254f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-53cfc51ad175bff47b71fc5d74fa976b
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-53cfc51ad175bff47b71fc5d74fa976b
-    projectPath: Temp\UnityTempFile-53cfc51ad175bff47b71fc5d74fa976b
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-1eca48a63d5cb5e46a8567706f092fdd
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-1eca48a63d5cb5e46a8567706f092fdd
+    projectPath: Temp\UnityTempFile-1eca48a63d5cb5e46a8567706f092fdd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-54d75255ca4fb194c942045698e2afbd
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-54d75255ca4fb194c942045698e2afbd
-    projectPath: Temp\UnityTempFile-54d75255ca4fb194c942045698e2afbd
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-2153a83d2b01e8d4b90061761a9f7b92
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-2153a83d2b01e8d4b90061761a9f7b92
+    projectPath: Temp\UnityTempFile-2153a83d2b01e8d4b90061761a9f7b92
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-56194d5cd1b2aec42b0be0836089f00f
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-56194d5cd1b2aec42b0be0836089f00f
-    projectPath: Temp\UnityTempFile-56194d5cd1b2aec42b0be0836089f00f
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-26918bc189e4a9c4ca306d9101ed0fe0
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-26918bc189e4a9c4ca306d9101ed0fe0
+    projectPath: Temp\UnityTempFile-26918bc189e4a9c4ca306d9101ed0fe0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-68a32510b2d2a2d499f5cbc2623b6eee
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-68a32510b2d2a2d499f5cbc2623b6eee
-    projectPath: Temp\UnityTempFile-68a32510b2d2a2d499f5cbc2623b6eee
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-2caa0ca483983f84da510eb544165cce
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-2caa0ca483983f84da510eb544165cce
+    projectPath: Temp\UnityTempFile-2caa0ca483983f84da510eb544165cce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ad773c39b83f7a746ba6bc212b9203b4
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ad773c39b83f7a746ba6bc212b9203b4
-    projectPath: Temp\UnityTempFile-ad773c39b83f7a746ba6bc212b9203b4
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-2ddf0322f55b9f645897ee76f0053a09
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-2ddf0322f55b9f645897ee76f0053a09
+    projectPath: Temp\UnityTempFile-2ddf0322f55b9f645897ee76f0053a09
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-b7f4ae206826e1e43b355811e8ddcc54
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-b7f4ae206826e1e43b355811e8ddcc54
-    projectPath: Temp\UnityTempFile-b7f4ae206826e1e43b355811e8ddcc54
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-34b2219c41505064bbf76b04185ccdbb
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-34b2219c41505064bbf76b04185ccdbb
+    projectPath: Temp\UnityTempFile-34b2219c41505064bbf76b04185ccdbb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ba35b784fe485904283155ee888f1a42
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ba35b784fe485904283155ee888f1a42
-    projectPath: Temp\UnityTempFile-ba35b784fe485904283155ee888f1a42
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-41fd4d75a83462d4c99920ab63c081cb
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-41fd4d75a83462d4c99920ab63c081cb
+    projectPath: Temp\UnityTempFile-41fd4d75a83462d4c99920ab63c081cb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-cf5d9ddb53e9dbc4788358a422d7bb68
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-cf5d9ddb53e9dbc4788358a422d7bb68
-    projectPath: Temp\UnityTempFile-cf5d9ddb53e9dbc4788358a422d7bb68
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-4222ddf095f231c4eb00fd126a1990af
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-4222ddf095f231c4eb00fd126a1990af
+    projectPath: Temp\UnityTempFile-4222ddf095f231c4eb00fd126a1990af
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-e80d43748fb4b2243ac52bc3ba77a5a8
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-e80d43748fb4b2243ac52bc3ba77a5a8
-    projectPath: Temp\UnityTempFile-e80d43748fb4b2243ac52bc3ba77a5a8
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-4576cbe0cf3191943b565acbe613b901
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-4576cbe0cf3191943b565acbe613b901
+    projectPath: Temp\UnityTempFile-4576cbe0cf3191943b565acbe613b901
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ea36ca5967148e14f82de07f5734e27f
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ea36ca5967148e14f82de07f5734e27f
-    projectPath: Temp\UnityTempFile-ea36ca5967148e14f82de07f5734e27f
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-47e18e97647e43642a7c7abd8a7e4435
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-47e18e97647e43642a7c7abd8a7e4435
+    projectPath: Temp\UnityTempFile-47e18e97647e43642a7c7abd8a7e4435
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ee6040c33bc967549afc29a5bdf95665
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ee6040c33bc967549afc29a5bdf95665
-    projectPath: Temp\UnityTempFile-ee6040c33bc967549afc29a5bdf95665
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-47f49af71ea4877428afb78a4648a171
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-47f49af71ea4877428afb78a4648a171
+    projectPath: Temp\UnityTempFile-47f49af71ea4877428afb78a4648a171
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-f71c839af2d81e7419d7a624c3392ccd
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-f71c839af2d81e7419d7a624c3392ccd
-    projectPath: Temp\UnityTempFile-f71c839af2d81e7419d7a624c3392ccd
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-4b34e5ba82d7fbb4faf3d17e82cd022b
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-4b34e5ba82d7fbb4faf3d17e82cd022b
+    projectPath: Temp\UnityTempFile-4b34e5ba82d7fbb4faf3d17e82cd022b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Unity Files\PotionWorks\Temp\UnityTempFile-fa27101fad5e2ab43a84599e6b6975c9
-    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-fa27101fad5e2ab43a84599e6b6975c9
-    projectPath: Temp\UnityTempFile-fa27101fad5e2ab43a84599e6b6975c9
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-4e7163efde5e51845ac1468d770853af
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-4e7163efde5e51845ac1468d770853af
+    projectPath: Temp\UnityTempFile-4e7163efde5e51845ac1468d770853af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-5d3ca07e3166282408e3896710d5a980
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-5d3ca07e3166282408e3896710d5a980
+    projectPath: Temp\UnityTempFile-5d3ca07e3166282408e3896710d5a980
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-5eb2117790d15514191ebf1abaf8bb06
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-5eb2117790d15514191ebf1abaf8bb06
+    projectPath: Temp\UnityTempFile-5eb2117790d15514191ebf1abaf8bb06
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-61138f9639ad3ca4d8103839a3da97e5
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-61138f9639ad3ca4d8103839a3da97e5
+    projectPath: Temp\UnityTempFile-61138f9639ad3ca4d8103839a3da97e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-62759113ec7f00a4194b1db7e8b7b076
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-62759113ec7f00a4194b1db7e8b7b076
+    projectPath: Temp\UnityTempFile-62759113ec7f00a4194b1db7e8b7b076
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-659f83ab1e3fbbe468bb7ab8e6a7b2e7
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-659f83ab1e3fbbe468bb7ab8e6a7b2e7
+    projectPath: Temp\UnityTempFile-659f83ab1e3fbbe468bb7ab8e6a7b2e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-6703e595cc08f9047bdb8998e7baca28
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-6703e595cc08f9047bdb8998e7baca28
+    projectPath: Temp\UnityTempFile-6703e595cc08f9047bdb8998e7baca28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-6a60707e0fa501c47af76d0b3c59b25e
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-6a60707e0fa501c47af76d0b3c59b25e
+    projectPath: Temp\UnityTempFile-6a60707e0fa501c47af76d0b3c59b25e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-6b1baf76a46ef8d49a4193b281f4f181
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-6b1baf76a46ef8d49a4193b281f4f181
+    projectPath: Temp\UnityTempFile-6b1baf76a46ef8d49a4193b281f4f181
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-7171bd7441c33bd48a8caabfefb0231a
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-7171bd7441c33bd48a8caabfefb0231a
+    projectPath: Temp\UnityTempFile-7171bd7441c33bd48a8caabfefb0231a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-797b9043607dd25429a7edb1282cdec4
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-797b9043607dd25429a7edb1282cdec4
+    projectPath: Temp\UnityTempFile-797b9043607dd25429a7edb1282cdec4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-7c4b4c78bd420b54fb95df77c61e9fd4
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-7c4b4c78bd420b54fb95df77c61e9fd4
+    projectPath: Temp\UnityTempFile-7c4b4c78bd420b54fb95df77c61e9fd4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-820156f61e12c81418f4463d49f5f237
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-820156f61e12c81418f4463d49f5f237
+    projectPath: Temp\UnityTempFile-820156f61e12c81418f4463d49f5f237
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-840b2e1509d08c144a433fad42ad27d5
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-840b2e1509d08c144a433fad42ad27d5
+    projectPath: Temp\UnityTempFile-840b2e1509d08c144a433fad42ad27d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-84d66c97160f7d14685a2d77cd9a4b70
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-84d66c97160f7d14685a2d77cd9a4b70
+    projectPath: Temp\UnityTempFile-84d66c97160f7d14685a2d77cd9a4b70
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-89013f7a423843f4fab5ac8a3df50a36
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-89013f7a423843f4fab5ac8a3df50a36
+    projectPath: Temp\UnityTempFile-89013f7a423843f4fab5ac8a3df50a36
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-8a1719850013c034ab5c682745826eeb
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-8a1719850013c034ab5c682745826eeb
+    projectPath: Temp\UnityTempFile-8a1719850013c034ab5c682745826eeb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-95b35435472d23e4bbf6555778c406c3
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-95b35435472d23e4bbf6555778c406c3
+    projectPath: Temp\UnityTempFile-95b35435472d23e4bbf6555778c406c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-9f8cfd4c8b394ca43b51f44f4804ebf6
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-9f8cfd4c8b394ca43b51f44f4804ebf6
+    projectPath: Temp\UnityTempFile-9f8cfd4c8b394ca43b51f44f4804ebf6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-a255dab46d18e344ba04ec465ba34fed
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-a255dab46d18e344ba04ec465ba34fed
+    projectPath: Temp\UnityTempFile-a255dab46d18e344ba04ec465ba34fed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-a6d2e9047e713504cb57b1af60a9ff2c
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-a6d2e9047e713504cb57b1af60a9ff2c
+    projectPath: Temp\UnityTempFile-a6d2e9047e713504cb57b1af60a9ff2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-b6bbf3321b0e48844b22d929f6176641
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-b6bbf3321b0e48844b22d929f6176641
+    projectPath: Temp\UnityTempFile-b6bbf3321b0e48844b22d929f6176641
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-bc748ad52b3a55b4d8730394024ca319
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-bc748ad52b3a55b4d8730394024ca319
+    projectPath: Temp\UnityTempFile-bc748ad52b3a55b4d8730394024ca319
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-bf27ddfc998da824581551877a185ff1
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-bf27ddfc998da824581551877a185ff1
+    projectPath: Temp\UnityTempFile-bf27ddfc998da824581551877a185ff1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-c6863b52d9cc1e449bad7922db13c956
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-c6863b52d9cc1e449bad7922db13c956
+    projectPath: Temp\UnityTempFile-c6863b52d9cc1e449bad7922db13c956
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-c9f9701cca6ad014a85071c4e62533f0
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-c9f9701cca6ad014a85071c4e62533f0
+    projectPath: Temp\UnityTempFile-c9f9701cca6ad014a85071c4e62533f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-caff0f42ffcd2604a944f51456ed2da3
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-caff0f42ffcd2604a944f51456ed2da3
+    projectPath: Temp\UnityTempFile-caff0f42ffcd2604a944f51456ed2da3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-cdd4da1e5c91dfe4596b6dd731f4ef26
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-cdd4da1e5c91dfe4596b6dd731f4ef26
+    projectPath: Temp\UnityTempFile-cdd4da1e5c91dfe4596b6dd731f4ef26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-d50c336445a2d99439230365eeca289c
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-d50c336445a2d99439230365eeca289c
+    projectPath: Temp\UnityTempFile-d50c336445a2d99439230365eeca289c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-dbf711f7cfa34a24eb68d84f0b4e7d80
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-dbf711f7cfa34a24eb68d84f0b4e7d80
+    projectPath: Temp\UnityTempFile-dbf711f7cfa34a24eb68d84f0b4e7d80
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-e2a3e16529cdda643bee4d47908bb420
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-e2a3e16529cdda643bee4d47908bb420
+    projectPath: Temp\UnityTempFile-e2a3e16529cdda643bee4d47908bb420
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-e608b83c0e08dc14190c4a9a3d8239f2
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-e608b83c0e08dc14190c4a9a3d8239f2
+    projectPath: Temp\UnityTempFile-e608b83c0e08dc14190c4a9a3d8239f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-e97a5190bfc49de4b9ff5ec2b24dff6b
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-e97a5190bfc49de4b9ff5ec2b24dff6b
+    projectPath: Temp\UnityTempFile-e97a5190bfc49de4b9ff5ec2b24dff6b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ea2eab1de1af1724aa8abe3f5d6404ef
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ea2eab1de1af1724aa8abe3f5d6404ef
+    projectPath: Temp\UnityTempFile-ea2eab1de1af1724aa8abe3f5d6404ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ec7692ec85efab84e9863e98e9598f09
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ec7692ec85efab84e9863e98e9598f09
+    projectPath: Temp\UnityTempFile-ec7692ec85efab84e9863e98e9598f09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-ef4049242e6f17b4da039544cf79a945
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-ef4049242e6f17b4da039544cf79a945
+    projectPath: Temp\UnityTempFile-ef4049242e6f17b4da039544cf79a945
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-f530e2ce2fb4ef945b793e56e08d6d3f
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-f530e2ce2fb4ef945b793e56e08d6d3f
+    projectPath: Temp\UnityTempFile-f530e2ce2fb4ef945b793e56e08d6d3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-f9aa6904440d09e4689ecba8f07c6ca9
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-f9aa6904440d09e4689ecba8f07c6ca9
+    projectPath: Temp\UnityTempFile-f9aa6904440d09e4689ecba8f07c6ca9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-fc697fc8ca5dc9f429f6dfe5c9593017
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-fc697fc8ca5dc9f429f6dfe5c9593017
+    projectPath: Temp\UnityTempFile-fc697fc8ca5dc9f429f6dfe5c9593017
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-fcc9dbd0988620745b8593435adc979a
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-fcc9dbd0988620745b8593435adc979a
+    projectPath: Temp\UnityTempFile-fcc9dbd0988620745b8593435adc979a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-fcde862ef85d57c46be003ca171826bd
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-fcde862ef85d57c46be003ca171826bd
+    projectPath: Temp\UnityTempFile-fcde862ef85d57c46be003ca171826bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Unity Files\PotionWorks\Temp\UnityTempFile-fda7cf116951d5848acf3b9754046a31
+    fullPath: C:\Users\ewcgo\source\repos\thetyper101\PotionWorks\Unity Files\PotionWorks\Temp\UnityTempFile-fda7cf116951d5848acf3b9754046a31
+    projectPath: Temp\UnityTempFile-fda7cf116951d5848acf3b9754046a31
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

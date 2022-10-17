@@ -9,9 +9,11 @@ public class Level : MonoBehaviour
 {
     // Start is called before the first frame update
     public Text textObj;
+    public Level nextLevel;
+
     public int levelNum;
     public int playerScore;
-    public Level nextLevel;
+    public bool levelCompleted;
     
     public CompletionStatus status;
     //public var status: CompletionStatus;
@@ -33,6 +35,7 @@ public class Level : MonoBehaviour
         }
     }
 
+    
     // Update is called once per frame
     public void LoadLevel()
     {

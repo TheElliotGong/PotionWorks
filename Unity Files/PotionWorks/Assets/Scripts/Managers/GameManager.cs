@@ -7,30 +7,32 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
-    public enum GameState { gamePlay, pause, levelVictory, levelDefeat}
+    
+    public enum GameState { menu, levelSelect, gamePlay, pause, levelVictory, levelDefeat, gameVictory}
 
     public static event Action<GameState> OnGameStateChanged;
     public GameState state;
+   
+    public int currentScore;
+    public Text score; 
     public GameObject pauseUI;
     public GameObject ingredientManager;
-    public int currentScore;
-    public Text score;
 
 
     private List<GameObject> ingredients;
 
+    public static GameManager instance;
 
+    public static GameManager Instance { get; private set; }
     private void Awake()
     {
-        if(instance == null)
+        if(Instance != null && Instance != this)
         {
-            instance = this;
-            DontDestroyOnLoad(this);
+            Destroy(this);
         }
         else
         {
-            Destroy(gameObject);
+            Instance = this;
         }
     }
 
@@ -38,7 +40,10 @@ public class GameManager : MonoBehaviour
     {
         switch(newState)
         {
-
+            case GameState.menu:
+                break;
+            case GameState.levelSelect:
+                break;
             case GameState.gamePlay:
                 break;
             case GameState.pause:
@@ -47,7 +52,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.levelDefeat:
                 break;
-
+            case GameState.gameVictory:
+                break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
         }
@@ -64,6 +70,10 @@ public class GameManager : MonoBehaviour
     {
         switch (state)
         {
+            case GameState.menu:
+                break;
+            case GameState.levelSelect:
+                break;
             case GameState.gamePlay:
 
                 break;
@@ -72,6 +82,8 @@ public class GameManager : MonoBehaviour
             case GameState.levelVictory:
                 break;
             case GameState.levelDefeat:
+                break;
+            case GameState.gameVictory:
                 break;
         }
     }
