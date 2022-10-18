@@ -11,14 +11,13 @@ public class PlayerControls : MonoBehaviour
 
     private int index;
     public List<GameObject> ingredientList;
+    public List<GameObject> gears;
     private bool AllIngredientsSpawned;
     // Start is called before the first frame update
     void Start()
     {
-        transform.rotation = Quaternion.identity;
         foreach(Transform child in ingredients.transform)
         {
-            //child.transform.position = new Vector3(0, 200, 0.5f);
             child.gameObject.SetActive(false);
             ingredientList.Add(child.gameObject);  
         }
@@ -32,7 +31,7 @@ public class PlayerControls : MonoBehaviour
         TurnGears();
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+            SpawnIngredient();
         }
     }
 
@@ -44,11 +43,13 @@ public class PlayerControls : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(new Vector3(0, 0, 80 * Time.deltaTime), Space.World);
+            foreach(GameObject gear in gears)
+                gear.transform.Rotate(new Vector3(0, 0, 80 * Time.deltaTime), Space.World);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(new Vector3(0, 0, -80 * Time.deltaTime), Space.World);
+            foreach (GameObject gear in gears)
+                gear.transform.Rotate(new Vector3(0, 0, -80 * Time.deltaTime), Space.World);
         }
         
     }
@@ -57,12 +58,10 @@ public class PlayerControls : MonoBehaviour
     {
         if(index < ingredientList.Count && AllIngredientsSpawned == false)
         {
+            //ingredientList[index].transform.position = new Vector3(-210, 350, 0.5f);
             ingredientList[index].SetActive(true);
             index++;
-            if (index == ingredientList.Count)
-            {
-                AllIngredientsSpawned = true;
-            }   
+             
         }
     }
 
