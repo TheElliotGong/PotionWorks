@@ -23,7 +23,9 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public static GameManager Instance { get; private set; }
-    private void Awake()
+    
+    /*private void Awake()
+
     {
         if (instance != null)
             Destroy(gameObject);
@@ -32,7 +34,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-    }
+    }*/
 
     public void UpdateState(GameState newState)
     {
