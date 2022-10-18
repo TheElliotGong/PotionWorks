@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2022-10-17T22:15:20.954-04:00
   initializedAtString: 2022-10-17T21:58:33.333-04:00
+=======
+  lastUpdatedAtString: 2022-10-17T21:57:54.689-04:00
+  initializedAtString: 2022-10-17T21:57:54.689-04:00
+>>>>>>> 5a6593adfad08c6056dbb12e20a18f74dcc872a8
   currentGitRemote:
     name: origin
     url: https://github.com/thetyper101/PotionWorks.git

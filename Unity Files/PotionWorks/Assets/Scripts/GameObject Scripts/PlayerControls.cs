@@ -12,7 +12,6 @@ public class PlayerControls : MonoBehaviour
     private int index;
     public List<GameObject> ingredientList;
     public List<GameObject> gears;
-    private bool AllIngredientsSpawned;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +21,6 @@ public class PlayerControls : MonoBehaviour
             ingredientList.Add(child.gameObject);  
         }
         index = 0;
-        AllIngredientsSpawned = false;
     }
 
     // Update is called once per frame
@@ -56,7 +54,7 @@ public class PlayerControls : MonoBehaviour
 
     public void SpawnIngredient()
     {
-        if(index < ingredientList.Count && AllIngredientsSpawned == false)
+        if(index < ingredientList.Count)
         {
             //ingredientList[index].transform.position = new Vector3(-210, 350, 0.5f);
             ingredientList[index].SetActive(true);
