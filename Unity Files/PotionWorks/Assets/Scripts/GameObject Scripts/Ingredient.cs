@@ -7,11 +7,16 @@ using System;
 public class Ingredient : MonoBehaviour
 {
     // Start is called before the first frame update
+    private UIManager ui;
     public GameObject trap;
     public GameObject pot;
-    public Text score;
     public int points;
-
+    private void Start()
+    {
+        ui = GameObject.Find("HUD").GetComponent<UIManager>();
+        if (ui == null)
+            Debug.Log("HUD not found!");
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == trap.tag)
@@ -36,8 +41,9 @@ public class Ingredient : MonoBehaviour
 
     public void AddScore()
     {
-        int currentScore = Int32.Parse(score.text);
-        currentScore += points;
-        score.text = currentScore.ToString();
+        if(ui != null)
+        {
+            ui.UpdateScore(points);
+        }
     }
 }

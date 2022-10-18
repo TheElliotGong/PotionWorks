@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-
+    
+    public List<GameObject> gears;
     public GameObject ingredients;
     public GameObject ingredientLauncher;
-
-
     private int index;
-    public List<GameObject> ingredientList;
-    public List<GameObject> gears;
+    public List<Transform> ingredientList;
     // Start is called before the first frame update
     void Start()
     {
+
         foreach(Transform child in ingredients.transform)
         {
             child.gameObject.SetActive(false);
-            ingredientList.Add(child.gameObject);  
+            ingredientList.Add(child);
         }
         index = 0;
     }
@@ -35,10 +34,7 @@ public class PlayerControls : MonoBehaviour
 
     public void TurnGears()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            SpawnIngredient();
-        }
+
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             foreach(GameObject gear in gears)
@@ -57,7 +53,7 @@ public class PlayerControls : MonoBehaviour
         if(index < ingredientList.Count)
         {
             //ingredientList[index].transform.position = new Vector3(-210, 350, 0.5f);
-            ingredientList[index].SetActive(true);
+            ingredientList[index].gameObject.SetActive(true);
             index++;
              
         }
