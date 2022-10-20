@@ -6,10 +6,12 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Button[] levelButtons;
+    public Level[] levelButtons;
+
     void Start()
     {
         //All levels except level 1 will be locked.
+
         
     }
 

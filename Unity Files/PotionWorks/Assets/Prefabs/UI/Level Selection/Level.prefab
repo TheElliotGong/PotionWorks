@@ -147,9 +147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObj: {fileID: 0}
-  nextLevel: {fileID: 0}
   levelNum: 0
   playerScore: 0
+  maxScore: 0
   levelCompleted: 0
   status: 0
 --- !u!1 &8346274240174368913

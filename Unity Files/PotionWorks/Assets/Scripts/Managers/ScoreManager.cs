@@ -9,9 +9,11 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     public struct LevelScore
     {
-        public string name;
+        public bool completed;
+        public bool unlocked;
         public int score;
     }
+
     public List<LevelScore> levelScores;
     static ScoreManager instance;
     private void Awake()
@@ -27,6 +29,8 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
 
+        LevelScore level = new LevelScore { completed = false, score = 0 };
+
     }
 
     // Update is called once per frame
@@ -35,9 +39,9 @@ public class ScoreManager : MonoBehaviour
         
     }
 
-    public void SetLevelScore(string levelName, int score)
+    public void SetLevelScore(bool completed, int score)
     {
-        LevelScore level = new LevelScore { name = levelName, score = score };
+        LevelScore level = new LevelScore { completed = true, score = score };
         levelScores.Add(level);
     }
 
