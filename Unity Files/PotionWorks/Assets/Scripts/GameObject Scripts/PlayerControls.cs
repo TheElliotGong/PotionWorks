@@ -26,10 +26,10 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         TurnGears();
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SpawnIngredient();
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    SpawnIngredient();
+        //}
     }
 
     public void TurnGears()
