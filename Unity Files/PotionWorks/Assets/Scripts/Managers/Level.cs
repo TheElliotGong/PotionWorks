@@ -15,7 +15,8 @@ public class Level : MonoBehaviour
     public bool levelCompleted;
 
     public CompletionStatus status;
-    //public var status: CompletionStatus;
+
+
     void Start()
     {
         textObj.text = levelNum.ToString();
@@ -33,8 +34,6 @@ public class Level : MonoBehaviour
                 break;
         }
     }
-
-    
     // Update is called once per frame
     public void LoadLevel()
     {
