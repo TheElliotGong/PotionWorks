@@ -9,13 +9,15 @@ public class Level : MonoBehaviour
 {
     // Start is called before the first frame update
     public Text textObj;
-    public Level nextLevel;
+    
     public int levelNum;
     public int playerScore;
+    public int maxScore;
     public bool levelCompleted;
 
     public CompletionStatus status;
-    //public var status: CompletionStatus;
+
+
     void Start()
     {
         textObj.text = levelNum.ToString();
@@ -33,8 +35,6 @@ public class Level : MonoBehaviour
                 break;
         }
     }
-
-    
     // Update is called once per frame
     public void LoadLevel()
     {
