@@ -6,18 +6,7 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    static LevelManager instance;
-
-    public Dictionary<string, int> levelScores;
-    
-    private void Awake()
-    {
-        if (instance != null)
-            Destroy(gameObject);
-        else
-            instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
+    public Button[] levelButtons;
     void Start()
     {
         //All levels except level 1 will be locked.

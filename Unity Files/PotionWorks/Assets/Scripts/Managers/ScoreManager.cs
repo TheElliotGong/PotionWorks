@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Dictionary<string, int> levelScores;
+    public List<int> scores;
 
     static ScoreManager instance;
     private void Awake()
@@ -29,6 +29,11 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SetLevelScore(int index, int score)
+    {
+        scores[index] = score;
     }
 
     
