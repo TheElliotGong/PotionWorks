@@ -15,8 +15,11 @@ public class IngredientLauncher : MonoBehaviour
     public GameObject greenIngredient;
     public GameObject redIngredient;
     public GameObject blueIngredient;
+    public GameObject yellowIngredient;
 
     public GameObject nextIngredient;
+
+    //public GameObject launcher;
 
     private Scene currentScene;
 
@@ -25,6 +28,7 @@ public class IngredientLauncher : MonoBehaviour
     //0 - green
     //1 - red
     //2 - blue
+    //3 - yellow
     public Stack<int> ingredientStackLevelOne;
     void Start()
     {
@@ -54,6 +58,9 @@ public class IngredientLauncher : MonoBehaviour
 
                 else if (ingredientStackLevelOne.Peek() == 2)
                     nextIngredient.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
+
+                else if (ingredientStackLevelOne.Peek() == 3)
+                    nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 255, 0);
 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
@@ -94,6 +101,12 @@ public class IngredientLauncher : MonoBehaviour
         else if(ingredientStack.Peek() == 2)
         {
             GameObject blueIng = Instantiate(blueIngredient, new Vector2(-225, 291), Quaternion.identity);
+            ingredientStack.Pop();
+        }
+
+        else if(ingredientStack.Peek() == 3)
+        {
+            GameObject yellowIng = Instantiate(yellowIngredient, new Vector2(-225, 291), Quaternion.identity);
             ingredientStack.Pop();
         }
 

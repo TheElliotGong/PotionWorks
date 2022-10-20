@@ -1891,6 +1891,7 @@ MonoBehaviour:
   greenIngredient: {fileID: 7299904262130116468, guid: 2929e063e68ad0b4f981cfdc6c281a9f, type: 3}
   redIngredient: {fileID: 4764752959977404784, guid: ab8c073dfae2b0a469815ed05d192a50, type: 3}
   blueIngredient: {fileID: 4354360023204798619, guid: 068587b96e3bc004c94b53f1c61908f6, type: 3}
+  yellowIngredient: {fileID: 4769753238381484216, guid: 2cfb50d169c862e4d948edeb6d5a041c, type: 3}
   nextIngredient: {fileID: 574122698}
 --- !u!1 &1375280196
 GameObject:
@@ -3551,11 +3552,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 2142856455}
-  levelVictory: {fileID: 2000928424}
+  levelResult: {fileID: 0}
   levelDefeat: {fileID: 0}
   pauseButton: {fileID: 2070995098}
-  playerScore: 0
+  ingredients: {fileID: 0}
   score: {fileID: 1375739781}
+  playerScore: 0
+  totalScore: 0
+  highScore: 0
+  runes: []
 --- !u!114 &2089478850
 MonoBehaviour:
   m_ObjectHideFlags: 0
