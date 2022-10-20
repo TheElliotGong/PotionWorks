@@ -12,9 +12,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelResult;
-    [SerializeField] private GameObject levelDefeat;
     [SerializeField] private GameObject pauseButton;
-    public GameObject ingredients;
     [SerializeField] private Text score;
     public int playerScore;
     public int totalScore;
@@ -29,15 +27,13 @@ public class UIManager : MonoBehaviour
         highScore = 0;
         pauseMenu.SetActive(false);
         levelResult.SetActive(false);
-        levelDefeat.SetActive(false);
-
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (ingredients.transform.childCount == 0 && finished == false)
+        if (playerScore == 80 && finished == false)
         {
             ShowLevelVictory();
             finished = true;
@@ -67,11 +63,6 @@ public class UIManager : MonoBehaviour
         foreach (GameObject rune in runes)
             rune.SetActive(false);
         ShowRunesAchieved();
-    }
-
-    public void ShowLevelDefeat()
-    {
-        levelDefeat.SetActive(true);
     }
 
     public void LoadScene(string name)
