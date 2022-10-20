@@ -13,9 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
-    [SerializeField] private GameObject ingredients;
     [SerializeField] private Text score;
-    [SerializeField] private GameObject nextLevelButton;
     public int playerScore;
     public int totalScore;
     public int highScore;
@@ -29,15 +27,15 @@ public class UIManager : MonoBehaviour
         highScore = 0;
         pauseMenu.SetActive(false);
         levelResult.SetActive(false);
-        nextLevelButton.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (ingredients.transform.childCount == 0 && finished == false)
+
+        if (playerScore == 80 && finished == false)
         {
-            ShowLevelResult();
+            ShowLevelVictory();
             finished = true;
         }
     }
@@ -59,9 +57,8 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void ShowLevelResult()
+    public void ShowLevelVictory()
     {
-
         levelResult.SetActive(true);
         foreach (GameObject rune in runes)
             rune.SetActive(false);
@@ -73,32 +70,24 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(name);
     }
-    public void RestartGame()
-    {
-        Time.timeScale = 1f;
 
-    }
     public void ShowRunesAchieved()
     {
         float percentage = (float)(playerScore / totalScore);
-        if(percentage >= 0.33f)
+        if (percentage >= 0.33f && percentage < 0.66f)
         {
-            nextLevelButton.SetActive(true);
-            if (percentage < 0.66f)
-            {
-                runes[0].SetActive(true);
-            }
-            else if ( percentage < 0.9f)
-            {
-                runes[0].SetActive(true);
-                runes[1].SetActive(true);
-            }
-            else if (percentage >= 0.9f)
-            {
-                runes[0].SetActive(true);
-                runes[1].SetActive(true);
-                runes[2].SetActive(true);
-            }
+            runes[0].SetActive(true);
+        }
+        else if (percentage >= 0.66f && percentage < 0.9f)
+        {
+            runes[0].SetActive(true);
+            runes[1].SetActive(true);
+        }
+        else if (percentage >= 0.9f)
+        {
+            runes[0].SetActive(true);
+            runes[1].SetActive(true);
+            runes[2].SetActive(true);
         }
     }
     

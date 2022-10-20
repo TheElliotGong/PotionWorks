@@ -19,7 +19,7 @@ public class IngredientLauncher : MonoBehaviour
 
     public GameObject nextIngredient;
 
-    //public GameObject launcher;
+    public GameObject launcher;
 
     private Scene currentScene;
 
@@ -88,25 +88,33 @@ public class IngredientLauncher : MonoBehaviour
     {
         if(ingredientStack.Peek() == 0)
         {
-            GameObject greenIng = Instantiate(greenIngredient, new Vector2(-225, 291), Quaternion.identity);
+            GameObject greenIng = Instantiate(greenIngredient, 
+                                              new Vector2(launcher.transform.position.x, launcher.transform.position.y),
+                                              Quaternion.identity);
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 1)
         {
-            GameObject redIng = Instantiate(redIngredient, new Vector2(-225, 291), Quaternion.identity);
+            GameObject redIng = Instantiate(redIngredient,
+                                            new Vector2(launcher.transform.position.x, launcher.transform.position.y),
+                                            Quaternion.identity);
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 2)
         {
-            GameObject blueIng = Instantiate(blueIngredient, new Vector2(-225, 291), Quaternion.identity);
+            GameObject blueIng = Instantiate(blueIngredient,
+                                             new Vector2(launcher.transform.position.x, launcher.transform.position.y),
+                                             Quaternion.identity);
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 3)
         {
-            GameObject yellowIng = Instantiate(yellowIngredient, new Vector2(-225, 291), Quaternion.identity);
+            GameObject yellowIng = Instantiate(yellowIngredient,
+                                               new Vector2(launcher.transform.position.x, launcher.transform.position.y),
+                                               Quaternion.identity);
             ingredientStack.Pop();
         }
 
