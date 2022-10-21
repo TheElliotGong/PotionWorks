@@ -12,16 +12,16 @@ public class Level : MonoBehaviour
     public int levelNum;
     public int playerScore;
     public int maxScore;
-    public bool levelCompleted;
-    public bool locked;
-    public GameObject[] potions;
-
-
+    public bool locked; //default value is false
+    public GameObject potions;
+    public Sprite[] potionSprites;
+    public Sprite ButtonImage;
 
     void Start()
     {
-        textObj.text = levelNum.ToString();
-        
+        locked = ScoreManager.instance.locked[levelNum - 1];
+        playerScore = ScoreManager.instance.levelScores[levelNum - 1];
+        UpdateImage(); 
     }
     // Update is called once per frame
     public void LoadLevel()
@@ -31,13 +31,30 @@ public class Level : MonoBehaviour
 
     public void UpdateImage()
     {
-        if(locked == false)
+        if(locked == true)
         {
-
+            potions.GetComponentInChildren<Image>().sprite = potionSprites[0];
         }
         else
         {
-
+            textObj.text = levelNum.ToString();
+            gameObject.GetComponent<Image>().sprite = ButtonImage;
+            if(playerScore > 0)
+            { 
+                float percentage = (float)(playerScore / maxScore);
+                potions.GetComponentInChildren<Image>().sprite = potionSprites[0];
+                if(percentage >= 0.33f )
+                {
+                    if(percentage >= 0.66f)
+                    {
+                        potions.GetComponentInChildren<Image>().sprite = potionSprites[1];
+                    }
+                    if (percentage >= 0.9f)
+                    {
+                        potions.GetComponentInChildren<Image>().sprite = potionSprites[2];
+                    }
+                }
+            }
         }
     }
 

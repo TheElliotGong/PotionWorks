@@ -17,14 +17,15 @@ public class UIManager : MonoBehaviour
     public int playerScore;
     public int totalScore;
     public int highScore;
-
+    public int levelNum;
     private bool finished;
-    [SerializeField] private GameObject[] runes;
+    [SerializeField] private GameObject[] potions;
     void Start()
     {
         finished = false;
         playerScore = 0;
         highScore = 0;
+        totalScore = ScoreManager.instance.levelScores[levelNum - 1];
         pauseMenu.SetActive(false);
         levelResult.SetActive(false);
     }
@@ -35,8 +36,9 @@ public class UIManager : MonoBehaviour
 
         if (playerScore == 80 && finished == false)
         {
-            ShowLevelVictory();
+            ShowLevelResult();
             finished = true;
+            ScoreManager.instance.SetLevelScore(levelNum - 1, playerScore, finished);
         }
     }
 
@@ -57,12 +59,18 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void ShowLevelVictory()
+    public void ShowLevelResult()
     {
+        if (playerScore >= highScore)
+        {
+            highScore = playerScore;
+        }
+        ScoreManager.instance.SetLevelScore(levelNum - 1, highScore, true);
+
         levelResult.SetActive(true);
-        foreach (GameObject rune in runes)
-            rune.SetActive(false);
-        ShowRunesAchieved();
+        foreach (GameObject potion in potions)
+            potion.SetActive(false);
+        ShowPotionsAchieved();
     }
 
     public void LoadScene(string name)
@@ -71,24 +79,25 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
-    public void ShowRunesAchieved()
+    public void ShowPotionsAchieved()
     {
         float percentage = (float)(playerScore / totalScore);
         if (percentage >= 0.33f && percentage < 0.66f)
         {
-            runes[0].SetActive(true);
+            potions[0].SetActive(true);
         }
         else if (percentage >= 0.66f && percentage < 0.9f)
         {
-            runes[0].SetActive(true);
-            runes[1].SetActive(true);
+            potions[0].SetActive(true);
+            potions[1].SetActive(true);
         }
         else if (percentage >= 0.9f)
         {
-            runes[0].SetActive(true);
-            runes[1].SetActive(true);
-            runes[2].SetActive(true);
+            potions[0].SetActive(true);
+            potions[1].SetActive(true);
+            potions[2].SetActive(true);
         }
+
     }
     
 }

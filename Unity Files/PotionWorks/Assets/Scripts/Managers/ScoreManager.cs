@@ -7,15 +7,10 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public struct LevelScore
-    {
-        public bool completed;
-        public bool unlocked;
-        public int score;
-    }
+    public int[] levelScores;
+    public bool[] locked;
+    public static ScoreManager instance;
 
-    public List<LevelScore> levelScores;
-    static ScoreManager instance;
     private void Awake()
     {
         if (instance != null)
@@ -26,23 +21,11 @@ public class ScoreManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-    void Start()
+
+    public void SetLevelScore(int index, int score, bool completed)
     {
-
-        LevelScore level = new LevelScore { completed = false, score = 0 };
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void SetLevelScore(bool completed, int score)
-    {
-        LevelScore level = new LevelScore { completed = true, score = score };
-        levelScores.Add(level);
+        levelScores[index] = score;
+        locked[index] = completed;
     }
 
 

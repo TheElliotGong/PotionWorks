@@ -150,8 +150,9 @@ MonoBehaviour:
   levelNum: 0
   playerScore: 0
   maxScore: 0
-  levelCompleted: 0
-  status: 0
+  locked: 0
+  potions: {fileID: 0}
+  unlockImage: {fileID: 0}
 --- !u!1 &8346274240174368913
 GameObject:
   m_ObjectHideFlags: 0

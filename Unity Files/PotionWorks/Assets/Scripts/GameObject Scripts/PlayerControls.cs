@@ -6,7 +6,7 @@ public class PlayerControls : MonoBehaviour
 {
     
     public List<GameObject> gears;
-    public GameObject ingredients;
+ 
     public GameObject ingredientLauncher;
     private int index;
     public List<Transform> ingredientList;
@@ -14,12 +14,7 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
 
-        foreach(Transform child in ingredients.transform)
-        {
-            child.gameObject.SetActive(false);
-            ingredientList.Add(child);
-        }
-        index = 0;
+       
     }
 
     // Update is called once per frame

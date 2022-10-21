@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         //All levels except level 1 will be locked.
-
+        
         
     }
 

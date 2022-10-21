@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 142196908}
   - component: {fileID: 142196907}
   m_Layer: 5
-  m_Name: Rune1
+  m_Name: Potion1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 422653492}
   - component: {fileID: 422653491}
   m_Layer: 5
-  m_Name: Level_Victory_Frame
+  m_Name: Level_Result_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1089,7 +1089,7 @@ GameObject:
   - component: {fileID: 681798190}
   - component: {fileID: 681798191}
   m_Layer: 0
-  m_Name: Level_Victory_Buttons
+  m_Name: Level_Result_Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1780,7 +1780,7 @@ GameObject:
   - component: {fileID: 1352311524}
   - component: {fileID: 1352311523}
   m_Layer: 5
-  m_Name: Rune3
+  m_Name: Potion3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2701,7 +2701,7 @@ Transform:
   m_LocalScale: {x: 125, y: 125, z: 54.317}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1608018451
 GameObject:
@@ -2869,7 +2869,7 @@ GameObject:
   - component: {fileID: 1848397468}
   - component: {fileID: 1848397467}
   m_Layer: 5
-  m_Name: Rune2
+  m_Name: Potion2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3052,7 +3052,7 @@ GameObject:
   - component: {fileID: 1963977463}
   - component: {fileID: 1963977464}
   m_Layer: 0
-  m_Name: Runes
+  m_Name: Potions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3249,7 +3249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000928425}
   m_Layer: 0
-  m_Name: LevelVictory
+  m_Name: LevelResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3609,9 +3609,13 @@ MonoBehaviour:
   pauseButton: {fileID: 2070995098}
   score: {fileID: 1375739781}
   playerScore: 0
-  totalScore: 0
+  totalScore: 80
   highScore: 0
-  runes: []
+  levelNum: 1
+  potions:
+  - {fileID: 142196905}
+  - {fileID: 1848397465}
+  - {fileID: 1352311521}
 --- !u!114 &2089478850
 MonoBehaviour:
   m_ObjectHideFlags: 0
