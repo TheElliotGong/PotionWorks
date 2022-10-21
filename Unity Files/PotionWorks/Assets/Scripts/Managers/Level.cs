@@ -21,7 +21,17 @@ public class Level : MonoBehaviour
     {
         locked = ScoreManager.instance.locked[levelNum - 1];
         playerScore = ScoreManager.instance.levelScores[levelNum - 1];
-        UpdateImage(); 
+        UpdateImage();
+        if(locked == true)
+        {
+            gameObject.GetComponent<Button>().interactable = false;
+            ColorBlock colors = gameObject.GetComponent<Button>().colors;
+            Color disabledColor = colors.disabledColor;
+            disabledColor.a = 1;
+            colors.disabledColor = disabledColor;
+            gameObject.GetComponent<Button>().colors = colors;
+        }
+            
     }
     // Update is called once per frame
     public void LoadLevel()
@@ -31,11 +41,7 @@ public class Level : MonoBehaviour
 
     public void UpdateImage()
     {
-        if(locked == true)
-        {
-            potions.GetComponentInChildren<Image>().sprite = potionSprites[0];
-        }
-        else
+        if(locked == false)
         {
             textObj.text = levelNum.ToString();
             gameObject.GetComponent<Image>().sprite = ButtonImage;

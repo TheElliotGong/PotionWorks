@@ -15,17 +15,17 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private Text score;
     public int playerScore;
-    public int totalScore;
+    public int maxScore;
     public int highScore;
     public int levelNum;
     private bool finished;
     [SerializeField] private GameObject[] potions;
+    [SerializeField] private Sprite[] potionImages;
     void Start()
     {
         finished = false;
         playerScore = 0;
-        highScore = 0;
-        totalScore = ScoreManager.instance.levelScores[levelNum - 1];
+        highScore = ScoreManager.instance.levelScores[levelNum - 1];
         pauseMenu.SetActive(false);
         levelResult.SetActive(false);
     }
@@ -68,8 +68,6 @@ public class UIManager : MonoBehaviour
         ScoreManager.instance.SetLevelScore(levelNum - 1, highScore, true);
 
         levelResult.SetActive(true);
-        foreach (GameObject potion in potions)
-            potion.SetActive(false);
         ShowPotionsAchieved();
     }
 
@@ -81,21 +79,21 @@ public class UIManager : MonoBehaviour
 
     public void ShowPotionsAchieved()
     {
-        float percentage = (float)(playerScore / totalScore);
+        float percentage = (float)(playerScore / maxScore);
         if (percentage >= 0.33f && percentage < 0.66f)
         {
-            potions[0].SetActive(true);
+            potions[0].GetComponent<Image>().sprite = potionImages[1];
         }
         else if (percentage >= 0.66f && percentage < 0.9f)
         {
-            potions[0].SetActive(true);
-            potions[1].SetActive(true);
+            potions[0].GetComponent<Image>().sprite = potionImages[1];
+            potions[1].GetComponent<Image>().sprite = potionImages[1];
         }
         else if (percentage >= 0.9f)
         {
-            potions[0].SetActive(true);
-            potions[1].SetActive(true);
-            potions[2].SetActive(true);
+            potions[0].GetComponent<Image>().sprite = potionImages[1];
+            potions[1].GetComponent<Image>().sprite = potionImages[1];
+            potions[2].GetComponent<Image>().sprite = potionImages[1];
         }
 
     }

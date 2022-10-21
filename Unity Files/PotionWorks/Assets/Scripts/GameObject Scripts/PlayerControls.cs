@@ -11,11 +11,6 @@ public class PlayerControls : MonoBehaviour
     private int index;
     public List<Transform> ingredientList;
     // Start is called before the first frame update
-    void Start()
-    {
-
-       
-    }
 
     // Update is called once per frame
     void Update()
