@@ -20,7 +20,7 @@ public class IngredientLauncher : MonoBehaviour
     public GameObject nextIngredient;
 
     public GameObject launcher;
-
+    
     private Scene currentScene;
 
     //will make this an int stack cause it'll make it easier to code levels
