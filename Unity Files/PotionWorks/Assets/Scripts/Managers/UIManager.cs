@@ -10,7 +10,7 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private GameObject pauseMenu;
+    public GameObject pauseMenu;
     [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private Text score;
@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
     {
         finished = false;
         playerScore = 0;
-        highScore = ScoreManager.instance.levelScores[levelNum - 1];
+        highScore = LevelManager.instance.levelScores[levelNum - 1];
         pauseMenu.SetActive(false);
         levelResult.SetActive(false);
     }
@@ -33,12 +33,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (playerScore == 80 && finished == false)
         {
             ShowLevelResult();
             finished = true;
-            ScoreManager.instance.SetLevelScore(levelNum - 1, playerScore, finished);
         }
     }
 
@@ -65,8 +63,6 @@ public class UIManager : MonoBehaviour
         {
             highScore = playerScore;
         }
-        ScoreManager.instance.SetLevelScore(levelNum - 1, highScore, true);
-
         levelResult.SetActive(true);
         ShowPotionsAchieved();
     }
@@ -80,22 +76,35 @@ public class UIManager : MonoBehaviour
     public void ShowPotionsAchieved()
     {
         float percentage = (float)(playerScore / maxScore);
-        if (percentage >= 0.33f && percentage < 0.66f)
+        if (percentage >= 0.33f )
         {
             potions[0].GetComponent<Image>().sprite = potionImages[1];
+            if(percentage >= 0.66f)
+                potions[1].GetComponent<Image>().sprite = potionImages[1];
+            if(percentage >= 0.9f)
+                potions[2].GetComponent<Image>().sprite = potionImages[1];
+            LevelManager.instance.SetLevelScore(levelNum - 1, highScore, true);
         }
-        else if (percentage >= 0.66f && percentage < 0.9f)
+        LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
+
+
+
+    }
+    /// <summary>
+    /// This method checks if all levels have been completed.
+    /// </summary>
+    public void CheckGameCompletion()
+    {
+        int levelsCompleted = 0;
+        foreach(bool status in LevelManager.instance.completed)
         {
-            potions[0].GetComponent<Image>().sprite = potionImages[1];
-            potions[1].GetComponent<Image>().sprite = potionImages[1];
+            if (status == true)
+                levelsCompleted++;
         }
-        else if (percentage >= 0.9f)
+        if(levelsCompleted == LevelManager.instance.completed.Length)
         {
-            potions[0].GetComponent<Image>().sprite = potionImages[1];
-            potions[1].GetComponent<Image>().sprite = potionImages[1];
-            potions[2].GetComponent<Image>().sprite = potionImages[1];
+
         }
 
     }
-    
 }

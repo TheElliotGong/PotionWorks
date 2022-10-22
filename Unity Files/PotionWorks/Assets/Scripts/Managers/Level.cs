@@ -12,17 +12,18 @@ public class Level : MonoBehaviour
     public int levelNum;
     public int playerScore;
     public int maxScore;
-    public bool locked; //default value is false
+    public bool unlocked;
+    public bool completed;
     public GameObject potions;
     public Sprite[] potionSprites;
     public Sprite ButtonImage;
-
     void Start()
     {
-        locked = ScoreManager.instance.locked[levelNum - 1];
-        playerScore = ScoreManager.instance.levelScores[levelNum - 1];
+        unlocked = LevelManager.instance.unlocked[levelNum - 1];
+        playerScore = LevelManager.instance.levelScores[levelNum - 1];
+        completed = LevelManager.instance.completed[levelNum - 1];
         UpdateImage();
-        if(locked == true)
+        if(unlocked == false)
         {
             gameObject.GetComponent<Button>().interactable = false;
             ColorBlock colors = gameObject.GetComponent<Button>().colors;
@@ -41,7 +42,8 @@ public class Level : MonoBehaviour
 
     public void UpdateImage()
     {
-        if(locked == false)
+        //Check if a level has been unlocked and completed.
+        if(unlocked == true && completed == true)
         {
             textObj.text = levelNum.ToString();
             gameObject.GetComponent<Image>().sprite = ButtonImage;
