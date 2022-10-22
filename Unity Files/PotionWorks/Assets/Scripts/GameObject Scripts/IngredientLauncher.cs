@@ -16,9 +16,7 @@ public class IngredientLauncher : MonoBehaviour
     public GameObject redIngredient;
     public GameObject blueIngredient;
     public GameObject yellowIngredient;
-
     public GameObject nextIngredient;
-
     public GameObject launcher;
     
     private Scene currentScene;
