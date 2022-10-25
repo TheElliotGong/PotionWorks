@@ -59,12 +59,15 @@ public class UIManager : MonoBehaviour
 
     public void ShowLevelResult()
     {
+        
         if (playerScore >= highScore)
         {
             highScore = playerScore;
         }
         levelResult.SetActive(true);
         ShowPotionsAchieved();
+        
+
     }
 
     public void LoadScene(string name)
@@ -84,8 +87,12 @@ public class UIManager : MonoBehaviour
             if(percentage >= 0.9f)
                 potions[2].GetComponent<Image>().sprite = potionImages[1];
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, true);
+            
         }
-        LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
+        else
+        {
+            LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
+        }
 
 
 
