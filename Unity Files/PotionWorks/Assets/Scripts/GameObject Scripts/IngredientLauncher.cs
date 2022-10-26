@@ -18,7 +18,7 @@ public class IngredientLauncher : MonoBehaviour
     public GameObject yellowIngredient;
     public GameObject nextIngredient;
     public GameObject launcher;
-    
+    public GameObject ingredients;
     private Scene currentScene;
 
     //will make this an int stack cause it'll make it easier to code levels
@@ -84,35 +84,32 @@ public class IngredientLauncher : MonoBehaviour
     /// </summary>
     Stack<int> IngredientLaunch(Stack<int> ingredientStack)
     {
+        Vector3 spawnPosition = new Vector3(launcher.transform.position.x, launcher.transform.position.y, launcher.transform.position.z);
         if(ingredientStack.Peek() == 0)
         {
-            GameObject greenIng = Instantiate(greenIngredient, 
-                                              new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                              Quaternion.identity);
+            GameObject greenIng = Instantiate(greenIngredient, spawnPosition, Quaternion.identity);
+            greenIng.transform.parent = ingredients.transform;
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 1)
         {
-            GameObject redIng = Instantiate(redIngredient,
-                                            new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                            Quaternion.identity);
+            GameObject redIng = Instantiate(redIngredient, spawnPosition, Quaternion.identity);
+            redIng.transform.parent = ingredients.transform;
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 2)
         {
-            GameObject blueIng = Instantiate(blueIngredient,
-                                             new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                             Quaternion.identity);
+            GameObject blueIng = Instantiate(blueIngredient, spawnPosition, Quaternion.identity);
+            blueIng.transform.parent = ingredients.transform;
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 3)
         {
-            GameObject yellowIng = Instantiate(yellowIngredient,
-                                               new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                               Quaternion.identity);
+            GameObject yellowIng = Instantiate(yellowIngredient, spawnPosition, Quaternion.identity);
+            yellowIng.transform.parent = ingredients.transform;
             ingredientStack.Pop();
         }
 

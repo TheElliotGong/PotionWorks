@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2817159956327202546}
   - component: {fileID: 2817159956327202548}
   - component: {fileID: 2817159956327202551}
+  - component: {fileID: -763356787221783183}
   m_Layer: 0
   m_Name: Green_Trap
   m_TagString: Green_Trap
@@ -145,3 +146,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-763356787221783183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2817159956327202545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d494342daa232f489153ca1f4adcb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trap: 0

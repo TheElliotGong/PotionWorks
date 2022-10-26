@@ -5,17 +5,7 @@ using UnityEngine;
 public class Trap : MonoBehaviour
 {
     // Start is called before the first frame update
+    public enum TrapType { green, red, blue, yellow}
 
-    public byte trapType; 
-    public byte TrapType { get; set; }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public TrapType trap;
 }
