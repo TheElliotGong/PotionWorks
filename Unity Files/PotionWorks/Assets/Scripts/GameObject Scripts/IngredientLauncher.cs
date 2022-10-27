@@ -18,6 +18,8 @@ public class IngredientLauncher : MonoBehaviour
     public GameObject yellowIngredient;
     public GameObject nextIngredient;
     public GameObject launcher;
+
+    public bool levelDone;
     
     private Scene currentScene;
 
@@ -28,14 +30,25 @@ public class IngredientLauncher : MonoBehaviour
     //2 - blue
     //3 - yellow
     public Stack<int> ingredientStackLevelOne;
+
+    //Stacks of the actual item, when every thing is destroyed it will be null, right?
+    public Stack<GameObject> gOIngredientStack;
+
+    //i looked it up and found out that 
+    //on destruction the game object doesn't go away, just sets itself to null
+    //so cant just rely on count have to check this way
+    bool allIngredientsGone;
     void Start()
     {
         ingredientStackLevelOne = new Stack<int>();
+        gOIngredientStack = new Stack<GameObject>();
         //fill up the ingredient list with greens for level one
         for(int i = 0; i < 4; i++)
         {
             ingredientStackLevelOne.Push(0);
         }
+        levelDone = false;
+        allIngredientsGone = false;
     }
 
     // Update is called once per frame
@@ -71,11 +84,34 @@ public class IngredientLauncher : MonoBehaviour
             {
                 nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 255, 255);
             }
-        }  
+        }
 
         /*
          * if(currentSceneName == "Level_2"
          */
+        Color white = new Color(255, 255, 255);
+
+        allIngredientsGone = true;
+        while(gOIngredientStack.Count != 0)
+        {
+            //if the top most is not null then it's not empty
+            if(gOIngredientStack.Peek() != null)
+            {
+                allIngredientsGone = false;
+                //the iteration will either break here or it'll break when count is 0 and allIngredientsGone will be true then
+                break;
+            }
+
+            else
+            {
+                //if it is null then pop it off cause we don't need it anymore and check what's under it
+                gOIngredientStack.Pop();
+            }
+        }
+        if((nextIngredient.GetComponent<Renderer>().material.color == white) && allIngredientsGone)
+        {
+            levelDone = true;
+        }
     }
 
     /// <summary>
@@ -89,6 +125,7 @@ public class IngredientLauncher : MonoBehaviour
             GameObject greenIng = Instantiate(greenIngredient, 
                                               new Vector2(launcher.transform.position.x, launcher.transform.position.y),
                                               Quaternion.identity);
+            gOIngredientStack.Push(greenIng);
             ingredientStack.Pop();
         }
 
@@ -97,6 +134,7 @@ public class IngredientLauncher : MonoBehaviour
             GameObject redIng = Instantiate(redIngredient,
                                             new Vector2(launcher.transform.position.x, launcher.transform.position.y),
                                             Quaternion.identity);
+            gOIngredientStack.Push(redIng);
             ingredientStack.Pop();
         }
 
@@ -105,6 +143,7 @@ public class IngredientLauncher : MonoBehaviour
             GameObject blueIng = Instantiate(blueIngredient,
                                              new Vector2(launcher.transform.position.x, launcher.transform.position.y),
                                              Quaternion.identity);
+            gOIngredientStack.Push(blueIng);
             ingredientStack.Pop();
         }
 
@@ -113,6 +152,7 @@ public class IngredientLauncher : MonoBehaviour
             GameObject yellowIng = Instantiate(yellowIngredient,
                                                new Vector2(launcher.transform.position.x, launcher.transform.position.y),
                                                Quaternion.identity);
+            gOIngredientStack.Push(yellowIng);
             ingredientStack.Pop();
         }
 

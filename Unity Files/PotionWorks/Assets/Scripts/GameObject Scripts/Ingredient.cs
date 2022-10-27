@@ -11,11 +11,13 @@ public class Ingredient : MonoBehaviour
     public GameObject trap;
     public GameObject pot;
     public int points;
+
     private void Start()
     {
         ui = GameObject.Find("HUD").GetComponent<UIManager>();
         if (ui == null)
             Debug.Log("HUD not found!");
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -35,7 +37,6 @@ public class Ingredient : MonoBehaviour
     /// </summary>
     private void OnBecameInvisible()
     {
-        
         Destroy(gameObject);
     }
 

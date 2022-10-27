@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4354360023204798619}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -83.117096, y: 74.734634, z: 0.5}
   m_LocalScale: {x: 30, y: 30, z: 0}
   m_Children: []
@@ -137,3 +137,4 @@ MonoBehaviour:
   trap: {fileID: 3381856609316475310, guid: 8ffb192f755d746478f602be1bc1e43a, type: 3}
   pot: {fileID: 3006333662683704066, guid: 7da868137e86341498fd18166314aaf5, type: 3}
   points: 20
+  launcher: {fileID: 0}

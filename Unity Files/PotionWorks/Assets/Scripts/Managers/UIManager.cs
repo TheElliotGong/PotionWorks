@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     public int maxScore;
     public int highScore;
     public int levelNum;
+    
+    private IngredientLauncher launcher;
     private bool finished;
     [SerializeField] private GameObject[] potions;
     [SerializeField] private Sprite[] potionImages;
@@ -28,13 +30,19 @@ public class UIManager : MonoBehaviour
         highScore = LevelManager.instance.levelScores[levelNum - 1];
         pauseMenu.SetActive(false);
         levelResult.SetActive(false);
+
+        launcher = GameObject.Find("Ingredient_Launcher").GetComponent<IngredientLauncher>();
+        if (launcher == null)
+            Debug.Log("Ingredient Launcher not found!");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (playerScore == 80 && finished == false)
+        //for now it's just for level one i'll update it to accomodate more levels once i know it works
+        if (launcher.levelDone && finished == false)
         {
+            Debug.Log("This code runs bruv");
             ShowLevelResult();
             finished = true;
         }
