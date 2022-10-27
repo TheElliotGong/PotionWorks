@@ -30,6 +30,7 @@ public class IngredientLauncher : MonoBehaviour
     //2 - blue
     //3 - yellow
     public Stack<int> ingredientStackLevelOne;
+    public Stack<int> ingredientStackLevelTwo;
 
     //Stacks of the actual item, when every thing is destroyed it will be null, right?
     public Stack<GameObject> gOIngredientStack;
@@ -41,12 +42,20 @@ public class IngredientLauncher : MonoBehaviour
     void Start()
     {
         ingredientStackLevelOne = new Stack<int>();
+        ingredientStackLevelTwo = new Stack<int>();
         gOIngredientStack = new Stack<GameObject>();
         //fill up the ingredient list with greens for level one
         for(int i = 0; i < 4; i++)
         {
             ingredientStackLevelOne.Push(0);
         }
+
+        //assign ingredient list for level two
+        ingredientStackLevelTwo.Push(0);
+        ingredientStackLevelTwo.Push(1);
+        ingredientStackLevelTwo.Push(1);
+        ingredientStackLevelTwo.Push(0);
+
         levelDone = false;
         allIngredientsGone = false;
     }
@@ -56,39 +65,21 @@ public class IngredientLauncher : MonoBehaviour
     {
         //checks level then checks corresponding ingredient list
         currentScene = SceneManager.GetActiveScene();
+        Debug.Log(currentScene.name);
         string currentSceneName = currentScene.name;
         if(currentSceneName == "Level_1")
         {
-            if(ingredientStackLevelOne.Count != 0)
-            {
-                if (ingredientStackLevelOne.Peek() == 0)
-                    nextIngredient.GetComponent<Renderer>().material.color = new Color(0, 255, 0);
-
-                else if (ingredientStackLevelOne.Peek() == 1)
-                    nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
-
-                else if (ingredientStackLevelOne.Peek() == 2)
-                    nextIngredient.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
-
-                else if (ingredientStackLevelOne.Peek() == 3)
-                    nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 255, 0);
-
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    //doing it like this so popping the ingredient affects the main guy
-                    ingredientStackLevelOne = IngredientLaunch(ingredientStackLevelOne);
-                }
-            }
-
-            else
-            {
-                nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 255, 255);
-            }
+            ingredientStackLevelOne = NextIngredientShow(ingredientStackLevelOne);
         }
 
-        /*
-         * if(currentSceneName == "Level_2"
-         */
+
+        if (currentSceneName == "Level_2")
+        {
+            //i dont think i need to clear the game object ingredient stack as it clears itself as level ends
+            ingredientStackLevelTwo = NextIngredientShow(ingredientStackLevelTwo);
+        }
+
+
         Color white = new Color(255, 255, 255);
 
         allIngredientsGone = true;
@@ -112,6 +103,37 @@ public class IngredientLauncher : MonoBehaviour
         {
             levelDone = true;
         }
+    }
+
+    Stack<int> NextIngredientShow(Stack<int> ingredientStack)
+    {
+        if (ingredientStack.Count != 0)
+        {
+            if (ingredientStack.Peek() == 0)
+                nextIngredient.GetComponent<Renderer>().material.color = new Color(0, 255, 0);
+
+            else if (ingredientStack.Peek() == 1)
+                nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
+
+            else if (ingredientStack.Peek() == 2)
+                nextIngredient.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
+
+            else if (ingredientStack.Peek() == 3)
+                nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 255, 0);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                //doing it like this so popping the ingredient affects the main guy
+                ingredientStack = IngredientLaunch(ingredientStack);
+            }
+        }
+
+        else
+        {
+            nextIngredient.GetComponent<Renderer>().material.color = new Color(255, 255, 255);
+        }
+
+        return ingredientStack;
     }
 
     /// <summary>

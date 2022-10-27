@@ -88,6 +88,8 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(name);
+        launcher.levelDone = false;
+        finished = false;
     }
 
     public void ShowPotionsAchieved()
