@@ -8,8 +8,8 @@ public class Ingredient : MonoBehaviour
 {
     // Start is called before the first frame update
     private UIManager ui;
-    public GameObject trap;
     public GameObject pot;
+    public byte ingredientType;
     public int points;
 
     private void Start()
@@ -21,9 +21,10 @@ public class Ingredient : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == trap.tag)
+        if (collision.transform.tag == "Trap")
         {
-            Destroy(gameObject);
+            if(collision.gameObject.GetComponent<Trap>().trapType != ingredientType)
+                Destroy(gameObject);
         }
         else if(collision.gameObject.name == "Cauldron")
         {

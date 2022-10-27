@@ -10,10 +10,12 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject pauseMenu;
+    [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
+    [SerializeField] private Progress_Bar cauldronBar;
     [SerializeField] private Text score;
+    
     public int playerScore;
     public int maxScore;
     public int highScore;
@@ -46,13 +48,17 @@ public class UIManager : MonoBehaviour
             ShowLevelResult();
             finished = true;
         }
+        
+
     }
 
 
     public void UpdateScore(int points)
     {
+
         playerScore += points;
         score.text = playerScore.ToString();
+        cauldronBar.AddProgress((float)points);
     }
     public void PauseGame()
     {
@@ -67,12 +73,15 @@ public class UIManager : MonoBehaviour
 
     public void ShowLevelResult()
     {
+        
         if (playerScore >= highScore)
         {
             highScore = playerScore;
         }
         levelResult.SetActive(true);
         ShowPotionsAchieved();
+        
+
     }
 
     public void LoadScene(string name)
@@ -92,8 +101,12 @@ public class UIManager : MonoBehaviour
             if(percentage >= 0.9f)
                 potions[2].GetComponent<Image>().sprite = potionImages[1];
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, true);
+            
         }
-        LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
+        else
+        {
+            LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
+        }
 
 
 

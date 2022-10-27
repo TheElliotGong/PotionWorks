@@ -120,6 +120,7 @@ public class IngredientLauncher : MonoBehaviour
     /// </summary>
     Stack<int> IngredientLaunch(Stack<int> ingredientStack)
     {
+        Vector3 spawnPosition = new Vector3(launcher.transform.position.x, launcher.transform.position.y, launcher.transform.position.z);
         if(ingredientStack.Peek() == 0)
         {
             GameObject greenIng = Instantiate(greenIngredient, 

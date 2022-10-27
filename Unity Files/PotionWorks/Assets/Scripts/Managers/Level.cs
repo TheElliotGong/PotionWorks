@@ -64,6 +64,11 @@ public class Level : MonoBehaviour
                 }
             }
         }
+        else if(unlocked == true )
+        {
+            textObj.text = levelNum.ToString();
+            gameObject.GetComponent<Image>().sprite = ButtonImage;
+        }
     }
 
 }

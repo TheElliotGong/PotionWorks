@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e9c168e3023db4c808ccba730e1b41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trap: {fileID: 2817159956327202545, guid: 94a2253cf28850e4992f08058f55be19, type: 3}
   pot: {fileID: 3006333662683704066, guid: 7da868137e86341498fd18166314aaf5, type: 3}
+  ingredientType: 3
   points: 20
   launcher: {fileID: 0}

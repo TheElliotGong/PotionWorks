@@ -26,8 +26,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
-    Unity.2D.SpriteShape.Editor.dll:
-    - UnityEditor.U2D.SpriteShapeEditorAnalytics
     Unity.2D.SpriteShape.Runtime.dll:
     - UnityEngine.U2D.SpriteShape
     - UnityEngine.U2D.SpriteShapeController
