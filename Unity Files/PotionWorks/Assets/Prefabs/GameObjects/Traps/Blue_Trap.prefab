@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1880083870297984958}
   m_Layer: 0
   m_Name: Blue_Trap
-  m_TagString: Blue_Trap
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

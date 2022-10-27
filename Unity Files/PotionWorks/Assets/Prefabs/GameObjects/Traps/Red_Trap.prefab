@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2271769500615784740}
   m_Layer: 0
   m_Name: Red_Trap
-  m_TagString: Red_Trap
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,4 +136,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d494342daa232f489153ca1f4adcb5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trap: 1
+  trapType: 2

@@ -10,10 +10,12 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject pauseMenu;
+    [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
+    [SerializeField] private Progress_Bar cauldronBar;
     [SerializeField] private Text score;
+    
     public int playerScore;
     public int maxScore;
     public int highScore;
@@ -33,18 +35,23 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (playerScore == 80 && finished == false)
         {
             ShowLevelResult();
             finished = true;
         }
+        
+
     }
 
 
     public void UpdateScore(int points)
     {
+
         playerScore += points;
         score.text = playerScore.ToString();
+        cauldronBar.AddProgress((float)points);
     }
     public void PauseGame()
     {

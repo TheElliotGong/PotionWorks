@@ -5,7 +5,5 @@ using UnityEngine;
 public class Trap : MonoBehaviour
 {
     // Start is called before the first frame update
-    public enum TrapType { green, red, blue, yellow}
-
-    public TrapType trap;
+    public byte trapType;
 }
