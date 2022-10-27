@@ -92,7 +92,8 @@ public class UIManager : MonoBehaviour
 
     public void ShowPotionsAchieved()
     {
-        float percentage = (float)(playerScore / maxScore);
+        float percentage = (float)(playerScore) / (float)(maxScore);
+        Debug.Log(percentage);
         if (percentage >= 0.33f )
         {
             potions[0].GetComponent<Image>().sprite = potionImages[1];
