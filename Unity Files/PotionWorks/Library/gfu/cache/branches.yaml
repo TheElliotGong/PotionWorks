@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-<<<<<<< HEAD
-  lastUpdatedAtString: 2022-10-27T14:33:25.767-04:00
-  initializedAtString: 2022-10-27T14:33:25.753-04:00
-=======
-  lastUpdatedAtString: 2022-10-27T14:11:37.338-04:00
-  initializedAtString: 2022-10-27T14:03:55.644-04:00
->>>>>>> a02228949b659fc23851777c5d755f2724926532
+  lastUpdatedAtString: 2022-10-27T21:33:55.209-04:00
+  initializedAtString: 2022-10-27T20:24:08.244-04:00
   localBranches:
   - name: current
     tracking: origin/current

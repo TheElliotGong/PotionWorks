@@ -7,7 +7,7 @@ public class Progress_Bar : MonoBehaviour
     // Start is called before the first frame update
     private Slider slider;
     private ParticleSystem particles;
-    public float fillSpeed = 0.25f;
+    public float fillSpeed = 0.08f;
     public float progress = 0;
     public float maxValue;
     void Start()

@@ -44,9 +44,9 @@ public class UIManager : MonoBehaviour
         //for now it's just for level one i'll update it to accomodate more levels once i know it works
         if (launcher.levelDone && finished == false)
         {
-            Debug.Log("This code runs bruv");
-            ShowLevelResult();
             finished = true;
+            ShowLevelResult();
+            
         }
         
 
@@ -94,20 +94,29 @@ public class UIManager : MonoBehaviour
 
     public void ShowPotionsAchieved()
     {
-        float percentage = (float)(playerScore) / (float)(maxScore);
-        Debug.Log(percentage);
-        if (percentage >= 0.33f )
+        float currentPercentage = (float)(playerScore) / (float)(maxScore);
+        float highScorePercentage = 0f;
+        //update the player's high score percentage if the high score is actually greater than 0.
+        if(highScore > 0)
+        {
+            highScorePercentage = (float)(highScore) / (float)(maxScore);
+        }
+        //Show star rating if the current score is at least a third of the max possible score.
+        if (currentPercentage >= 0.33f )
         {
             potions[0].GetComponent<Image>().sprite = potionImages[1];
-            if(percentage >= 0.66f)
+            if(currentPercentage >= 0.66f)
                 potions[1].GetComponent<Image>().sprite = potionImages[1];
-            if(percentage >= 0.9f)
+            if(currentPercentage >= 0.9f)
                 potions[2].GetComponent<Image>().sprite = potionImages[1];
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, true);
             
         }
+        //Make sure that the player's score is saved.
         else
         {
+            //Only set completed as false if the high score isn't greater than 33 percent.
+            if(highScorePercentage < 0.33f)
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
         }
 
@@ -129,6 +138,5 @@ public class UIManager : MonoBehaviour
         {
 
         }
-
     }
 }

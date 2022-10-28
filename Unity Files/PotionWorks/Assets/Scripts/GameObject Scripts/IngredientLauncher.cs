@@ -145,36 +145,28 @@ public class IngredientLauncher : MonoBehaviour
         Vector3 spawnPosition = new Vector3(launcher.transform.position.x, launcher.transform.position.y, launcher.transform.position.z);
         if(ingredientStack.Peek() == 0)
         {
-            GameObject greenIng = Instantiate(greenIngredient, 
-                                              new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                              Quaternion.identity);
+            GameObject greenIng = Instantiate(greenIngredient, spawnPosition, Quaternion.identity);
             gOIngredientStack.Push(greenIng);
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 1)
         {
-            GameObject redIng = Instantiate(redIngredient,
-                                            new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                            Quaternion.identity);
+            GameObject redIng = Instantiate(redIngredient, spawnPosition, Quaternion.identity);
             gOIngredientStack.Push(redIng);
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 2)
         {
-            GameObject blueIng = Instantiate(blueIngredient,
-                                             new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                             Quaternion.identity);
+            GameObject blueIng = Instantiate(blueIngredient, spawnPosition, Quaternion.identity);
             gOIngredientStack.Push(blueIng);
             ingredientStack.Pop();
         }
 
         else if(ingredientStack.Peek() == 3)
         {
-            GameObject yellowIng = Instantiate(yellowIngredient,
-                                               new Vector2(launcher.transform.position.x, launcher.transform.position.y),
-                                               Quaternion.identity);
+            GameObject yellowIng = Instantiate(yellowIngredient, spawnPosition, Quaternion.identity);
             gOIngredientStack.Push(yellowIng);
             ingredientStack.Pop();
         }

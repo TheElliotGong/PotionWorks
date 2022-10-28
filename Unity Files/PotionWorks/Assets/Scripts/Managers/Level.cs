@@ -49,10 +49,10 @@ public class Level : MonoBehaviour
             gameObject.GetComponent<Image>().sprite = ButtonImage;
             if(playerScore > 0)
             { 
-                float percentage = (float)(playerScore / maxScore);
-                potions.GetComponentInChildren<Image>().sprite = potionSprites[0];
+                float percentage = (float)(playerScore) / (float)(maxScore); 
                 if(percentage >= 0.33f )
                 {
+                    potions.GetComponentInChildren<Image>().sprite = potionSprites[0];
                     if(percentage >= 0.66f)
                     {
                         potions.GetComponentInChildren<Image>().sprite = potionSprites[1];
