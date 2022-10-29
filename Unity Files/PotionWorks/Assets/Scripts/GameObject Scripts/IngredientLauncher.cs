@@ -65,7 +65,6 @@ public class IngredientLauncher : MonoBehaviour
     {
         //checks level then checks corresponding ingredient list
         currentScene = SceneManager.GetActiveScene();
-        Debug.Log(currentScene.name);
         string currentSceneName = currentScene.name;
         if(currentSceneName == "Level_1")
         {

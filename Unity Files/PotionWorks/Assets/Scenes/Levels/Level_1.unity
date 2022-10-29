@@ -301,25 +301,26 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.1453874, y: 3.351484}
-  - {x: -2.5387356, y: 3.3445928}
-  - {x: -2.0662444, y: 3.283459}
-  - {x: -1.8016664, y: 3.199473}
-  - {x: -1.554492, y: 3.0693636}
-  - {x: -1.1749145, y: 2.7560334}
-  - {x: -0.89795774, y: 2.4503524}
-  - {x: -0.6920496, y: 2.1457407}
-  - {x: -0.5210727, y: 1.761445}
-  - {x: -0.45576632, y: 1.5459417}
-  - {x: -0.40769577, y: 1.3187686}
-  - {x: -0.37374815, y: 0.84062594}
-  - {x: -0.39285755, y: 0.59494823}
-  - {x: -0.43926644, y: 0.34809053}
-  - {x: -0.5154653, y: 0.102190286}
-  - {x: -0.62411803, y: -0.14082512}
-  - {x: -0.7681575, y: -0.3791492}
-  - {x: -0.95081806, y: -0.61094797}
-  - {x: -1.1837187, y: -0.84183383}
+  - {x: -3.1453874, y: 3.3791928}
+  - {x: -2.5183377, y: 3.3769422}
+  - {x: -2.0004745, y: 3.32566}
+  - {x: -1.7010818, y: 3.2483625}
+  - {x: -1.4233509, y: 3.1249483}
+  - {x: -1.1173161, y: 2.9113524}
+  - {x: -0.87613004, y: 2.6837797}
+  - {x: -0.6342715, y: 2.385985}
+  - {x: -0.4651564, y: 2.0438266}
+  - {x: -0.40019065, y: 1.842835}
+  - {x: -0.3513762, y: 1.6257615}
+  - {x: -0.32077157, y: 1.3954649}
+  - {x: -0.32178438, y: 0.9063179}
+  - {x: -0.35698974, y: 0.65283066}
+  - {x: -0.41764674, y: 0.39681816}
+  - {x: -0.55689, y: 0.02962502}
+  - {x: -0.6223277, y: -0.11316935}
+  - {x: -0.77002877, y: -0.3625769}
+  - {x: -0.95061004, y: -0.6053111}
+  - {x: -1.1731744, y: -0.84631574}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -339,9 +340,9 @@ MonoBehaviour:
   m_Spline:
     m_IsOpenEnded: 1
     m_ControlPoints:
-    - position: {x: -3.1482842, y: 3.543462, z: 0}
-      leftTangent: {x: -1.3511264, y: -0.020390034, z: 0}
-      rightTangent: {x: 1.1553453, y: 0.017434359, z: 0}
+    - position: {x: -3.1482842, y: 3.5711708, z: 0}
+      leftTangent: {x: -1.3511279, y: -0.020390034, z: 0}
+      rightTangent: {x: 1.155346, y: 0.017434359, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
@@ -349,9 +350,9 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: -0.7485102, y: 2.5708904, z: 0}
-      leftTangent: {x: -0.75794464, y: 0.9090874, z: 0}
-      rightTangent: {x: 0.5927877, y: -0.71099806, z: 0}
+    - position: {x: -0.5858594, y: 2.6448228, z: 0}
+      leftTangent: {x: -0.75794554, y: 0.9090874, z: 0}
+      rightTangent: {x: 0.5927878, y: -0.71099854, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
@@ -359,9 +360,9 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: -1.0483984, y: -0.9780411, z: 0}
-      leftTangent: {x: 1.3184963, y: 1.1650188, z: 0}
-      rightTangent: {x: -0.6908815, y: -0.6104576, z: 0}
+    - position: {x: -1.0320156, y: -0.9764624, z: 0}
+      leftTangent: {x: 1.2406633, y: 1.2129173, z: 0}
+      rightTangent: {x: -0.65924275, y: -0.644499, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
@@ -432,8 +433,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: 57550cfa5bf8b724eb7302ab40bfe682, type: 3}
   m_LocalAABB:
-    m_Center: {x: -1.5915958, y: 1.2911327, z: -0.00005}
-    m_Extent: {x: 1.6097041, y: 2.4542885, z: 0.00005}
+    m_Center: {x: -1.5597991, y: 1.3087413, z: -0.00005}
+    m_Extent: {x: 1.6414996, y: 2.4649754, z: 0.00005}
 --- !u!1 &107311183
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +529,8 @@ GameObject:
   - component: {fileID: 114160745}
   - component: {fileID: 114160746}
   - component: {fileID: 114160747}
+  - component: {fileID: 114160749}
+  - component: {fileID: 114160748}
   m_Layer: 5
   m_Name: Progress_Bar
   m_TagString: Untagged
@@ -596,7 +599,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 114160748}
   m_FillRect: {fileID: 931804061}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
@@ -619,9 +622,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ecb1924ff69c0419d8003a46d57794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fillSpeed: 0.25
   progress: 0
   maxValue: 80
+--- !u!114 &114160748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114160744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6d8082c5fd2d3624a80ffd14852d13e2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &114160749
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114160744}
+  m_CullTransparentMesh: 1
 --- !u!1 &142196905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,7 +2263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4513457481184986102, guid: 0dd28d59b2229274688b715dc17800d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -120
+      value: -136
       objectReference: {fileID: 0}
     - target: {fileID: 4513457481184986102, guid: 0dd28d59b2229274688b715dc17800d7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4680,7 +4720,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: -60
+      scalar: -8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5172,7 +5212,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 11.4
+    angle: 45
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -5258,7 +5298,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 20.33
+      value: 0.22
       mode: 0
       spread: 0
       speed:
@@ -5377,7 +5417,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 20
       minScalar: 10
       maxCurve:
         serializedVersion: 2
