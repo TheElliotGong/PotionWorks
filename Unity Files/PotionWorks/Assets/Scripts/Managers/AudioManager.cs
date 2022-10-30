@@ -6,8 +6,9 @@ public class AudioManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    static AudioManager instance;
-
+    public static AudioManager instance;
+    [SerializeField] private AudioSource audio;
+    [SerializeField] private List<AudioClip> music;
     private void Awake()
     {
         if (instance != null)
@@ -22,12 +23,18 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        
+        audio.clip = music[0];
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void SetAudio(int index)
+    {
+        audio.clip = music[index];
+        audio.PlayDelayed(0.75f);
     }
 }

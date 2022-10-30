@@ -100,12 +100,14 @@ public class UIManager : MonoBehaviour
         //Show star rating if the current score is at least a third of the max possible score.
         if (currentPercentage >= 0.33f )
         {
+            AudioManager.instance.SetAudio(1);
             potions[0].GetComponent<Image>().sprite = potionImages[1];
             if(currentPercentage >= 0.66f)
                 potions[1].GetComponent<Image>().sprite = potionImages[1];
             if(currentPercentage >= 0.9f)
                 potions[2].GetComponent<Image>().sprite = potionImages[1];
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, true);
+            
             
         }
         //Make sure that the player's score is saved.
