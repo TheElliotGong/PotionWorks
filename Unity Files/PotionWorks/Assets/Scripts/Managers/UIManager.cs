@@ -27,6 +27,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Sprite[] potionImages;
     void Start()
     {
+        AudioManager.instance.SetAudio(1);
         finished = false;
         playerScore = 0;
         highScore = LevelManager.instance.levelScores[levelNum - 1];
@@ -100,7 +101,7 @@ public class UIManager : MonoBehaviour
         //Show star rating if the current score is at least a third of the max possible score.
         if (currentPercentage >= 0.33f )
         {
-            AudioManager.instance.SetAudio(1);
+            AudioManager.instance.SetAudio(2);
             potions[0].GetComponent<Image>().sprite = potionImages[1];
             if(currentPercentage >= 0.66f)
                 potions[1].GetComponent<Image>().sprite = potionImages[1];
