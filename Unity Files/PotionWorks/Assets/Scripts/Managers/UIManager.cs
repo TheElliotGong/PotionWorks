@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private Progress_Bar cauldronBar;
-    [SerializeField] private Text score;
+    [SerializeField] private TextMesh score;
     
     public int playerScore;
     public int maxScore;
@@ -48,11 +48,7 @@ public class UIManager : MonoBehaviour
             ShowLevelResult();
             
         }
-        
-
     }
-
-
     public void UpdateScore(int points)
     {
 

@@ -7,7 +7,7 @@ using System;
 public class Ingredient : MonoBehaviour
 {
     // Start is called before the first frame update
-    private UIManager ui;
+    public UIManager ui;
     public GameObject pot;
     public byte ingredientType;
     public int points;
