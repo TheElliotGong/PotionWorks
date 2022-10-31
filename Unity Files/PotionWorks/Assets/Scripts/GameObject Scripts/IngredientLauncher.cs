@@ -31,7 +31,7 @@ public class IngredientLauncher : MonoBehaviour
     //3 - yellow
     public Stack<int> ingredientStackLevelOne;
     public Stack<int> ingredientStackLevelTwo;
-
+    public Stack<int> ingredientStackLevelThree;
     //Stacks of the actual item, when every thing is destroyed it will be null, right?
     public Stack<GameObject> gOIngredientStack;
 
@@ -43,6 +43,7 @@ public class IngredientLauncher : MonoBehaviour
     {
         ingredientStackLevelOne = new Stack<int>();
         ingredientStackLevelTwo = new Stack<int>();
+        ingredientStackLevelThree = new Stack<int>();
         gOIngredientStack = new Stack<GameObject>();
         //fill up the ingredient list with greens for level one
         for(int i = 0; i < 4; i++)
@@ -55,6 +56,12 @@ public class IngredientLauncher : MonoBehaviour
         ingredientStackLevelTwo.Push(1);
         ingredientStackLevelTwo.Push(1);
         ingredientStackLevelTwo.Push(0);
+
+        //assign ingredient list for level three
+        ingredientStackLevelThree.Push(1);
+        ingredientStackLevelThree.Push(2);
+        ingredientStackLevelThree.Push(3);
+        ingredientStackLevelThree.Push(0);
 
         levelDone = false;
         allIngredientsGone = false;
@@ -76,6 +83,11 @@ public class IngredientLauncher : MonoBehaviour
         {
             //i dont think i need to clear the game object ingredient stack as it clears itself as level ends
             ingredientStackLevelTwo = NextIngredientShow(ingredientStackLevelTwo);
+        }
+
+        if(currentSceneName == "Level_3")
+        {
+            ingredientStackLevelThree = NextIngredientShow(ingredientStackLevelThree);
         }
 
 
