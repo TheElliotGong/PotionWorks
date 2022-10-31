@@ -6411,7 +6411,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &1509843518516534756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6486,6 +6486,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 1509843518467150430}
   levelResult: {fileID: 1509843518327343601}
   pauseButton: {fileID: 1509843518529509315}
+  nextButton: {fileID: 1509843519061328973}
   cauldronBar: {fileID: 1509843518621582130}
   score: {fileID: 7643529230355404230}
   playerScore: 0
@@ -7548,7 +7549,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 4
   m_Spacing: 100
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1

@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelResult;
     [SerializeField] private GameObject pauseButton;
+    [SerializeField] private GameObject nextButton;
     [SerializeField] private Progress_Bar cauldronBar;
     [SerializeField] private TextMesh score;
     
@@ -83,6 +84,9 @@ public class UIManager : MonoBehaviour
     public void LoadScene(string name)
     {
         Time.timeScale = 1f;
+        if (name == "Level_Select" || name == "Menu")
+            AudioManager.instance.SetAudio(0);
+        
         SceneManager.LoadScene(name);
         launcher.levelDone = false;
         finished = false;
@@ -100,6 +104,7 @@ public class UIManager : MonoBehaviour
         //Show star rating if the current score is at least a third of the max possible score.
         if (currentPercentage >= 0.33f )
         {
+            nextButton.SetActive(true);
             AudioManager.instance.SetAudio(2);
             potions[0].GetComponent<Image>().sprite = potionImages[1];
             if(currentPercentage >= 0.66f)
@@ -113,6 +118,7 @@ public class UIManager : MonoBehaviour
         //Make sure that the player's score is saved.
         else
         {
+            nextButton.SetActive(false);
             //Only set completed as false if the high score isn't greater than 33 percent.
             if(highScorePercentage < 0.33f)
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
