@@ -6,8 +6,6 @@ public class PlayerControls : MonoBehaviour
 {
     
     public List<GameObject> gears;
- 
-    public GameObject ingredientLauncher;
     private int index;
     public List<Transform> ingredientList;
     // Start is called before the first frame update
@@ -37,17 +35,5 @@ public class PlayerControls : MonoBehaviour
         }
         
     }
-
-    public void SpawnIngredient()
-    {
-        if(index < ingredientList.Count)
-        {
-            //ingredientList[index].transform.position = new Vector3(-210, 350, 0.5f);
-            ingredientList[index].gameObject.SetActive(true);
-            index++;
-             
-        }
-    }
-
 
 }

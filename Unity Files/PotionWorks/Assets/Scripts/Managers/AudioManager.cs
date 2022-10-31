@@ -25,7 +25,7 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         audio.clip = music[0];
-        
+        audio.loop = loopValues[0];
     }
 
     // Update is called once per frame
@@ -37,6 +37,7 @@ public class AudioManager : MonoBehaviour
     public void SetAudio(int index)
     {
         audio.clip = music[index];
-        audio.PlayDelayed(0.75f);
+        audio.clip = music[index];
+        audio.PlayDelayed(0.5f);
     }
 }
