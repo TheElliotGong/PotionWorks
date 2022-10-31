@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gears:
-  - {fileID: 0}
+  - {fileID: 1477456386}
   ingredientList: []
 --- !u!1 &74818141
 GameObject:
@@ -1260,6 +1260,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1681144915467003984, guid: 0dd28d59b2229274688b715dc17800d7, type: 3}
   m_PrefabInstance: {fileID: 1477456382}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1477456386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4513457481184986103, guid: 0dd28d59b2229274688b715dc17800d7, type: 3}
+  m_PrefabInstance: {fileID: 1477456382}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1598572425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,6 +1674,10 @@ PrefabInstance:
     - target: {fileID: 1509843519061328972, guid: 944ae3beecc1221499cd78f2de1331b5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509843519061328975, guid: 944ae3beecc1221499cd78f2de1331b5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level_3
       objectReference: {fileID: 0}
     - target: {fileID: 1509843519398079735, guid: 944ae3beecc1221499cd78f2de1331b5, type: 3}
       propertyPath: m_AnchorMax.y

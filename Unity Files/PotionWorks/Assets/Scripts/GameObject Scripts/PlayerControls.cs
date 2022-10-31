@@ -8,7 +8,6 @@ public class PlayerControls : MonoBehaviour
     public List<GameObject> gears;
     private int index;
     public List<Transform> ingredientList;
-    // Start is called before the first frame update
 
     // Update is called once per frame
     void Update()
