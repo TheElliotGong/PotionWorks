@@ -37,7 +37,7 @@ public class AudioManager : MonoBehaviour
     public void SetAudio(int index)
     {
         audio.clip = music[index];
-        audio.clip = music[index];
+        audio.loop = loopValues[index];
         audio.PlayDelayed(0.5f);
     }
 }
