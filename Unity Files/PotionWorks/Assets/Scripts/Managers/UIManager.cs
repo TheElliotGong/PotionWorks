@@ -85,7 +85,10 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         if (name == "Level_Select" || name == "Menu")
+        {
             AudioManager.instance.SetAudio(0);
+        }
+            
         
         SceneManager.LoadScene(name);
         launcher.levelDone = false;
@@ -119,6 +122,7 @@ public class UIManager : MonoBehaviour
         else
         {
             nextButton.SetActive(false);
+            AudioManager.instance.SetAudio(3);
             //Only set completed as false if the high score isn't greater than 33 percent.
             if(highScorePercentage < 0.33f)
             LevelManager.instance.SetLevelScore(levelNum - 1, highScore, false);
