@@ -84,13 +84,12 @@ public class UIManager : MonoBehaviour
     public void LoadScene(string name)
     {
         Time.timeScale = 1f;
+        
+        SceneManager.LoadScene(name);
         if (name == "Level_Select" || name == "Menu")
         {
             AudioManager.instance.SetAudio(0);
         }
-            
-        
-        SceneManager.LoadScene(name);
         launcher.levelDone = false;
         finished = false;
     }

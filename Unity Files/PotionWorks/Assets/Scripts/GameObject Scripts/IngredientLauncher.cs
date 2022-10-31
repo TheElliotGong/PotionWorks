@@ -44,6 +44,7 @@ public class IngredientLauncher : MonoBehaviour
         ingredientStackLevelOne = new Stack<int>();
         ingredientStackLevelTwo = new Stack<int>();
         ingredientStackLevelThree = new Stack<int>();
+
         gOIngredientStack = new Stack<GameObject>();
         //fill up the ingredient list with greens for level one
         for(int i = 0; i < 4; i++)

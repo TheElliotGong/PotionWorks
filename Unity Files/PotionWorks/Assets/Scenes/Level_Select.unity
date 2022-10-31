@@ -598,6 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538338349}
   - component: {fileID: 538338348}
+  - component: {fileID: 538338350}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -634,6 +635,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538338350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538338347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077e77446994a864ab731b56c9b404e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &549824383
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,9 +888,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 538338348}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: BackToMain
+      - m_Target: {fileID: 538338350}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
