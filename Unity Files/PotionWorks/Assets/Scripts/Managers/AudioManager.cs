@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
     [SerializeField] private AudioSource audio;
     [SerializeField] private List<AudioClip> music;
+    [SerializeField] private List<bool> loopValues;
     private void Awake()
     {
         if (instance != null)
@@ -24,6 +25,7 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         audio.clip = music[0];
+        
     }
 
     // Update is called once per frame

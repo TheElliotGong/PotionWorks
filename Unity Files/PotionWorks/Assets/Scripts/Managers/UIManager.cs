@@ -47,7 +47,6 @@ public class UIManager : MonoBehaviour
         {
             finished = true;
             ShowLevelResult();
-            
         }
     }
     public void UpdateScore(int points)
