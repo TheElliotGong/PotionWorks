@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
+    public static MainMenu instance;
     public void StartGame()
     {
         SceneManager.LoadScene("Level_Select");
