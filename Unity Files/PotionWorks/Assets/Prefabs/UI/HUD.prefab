@@ -619,7 +619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10c7cd678363bde428a3bb1b4e05b00e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: abe137d9808cad74fb77a5bf20407797, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -981,7 +981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10c7cd678363bde428a3bb1b4e05b00e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: abe137d9808cad74fb77a5bf20407797, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6411,7 +6411,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &1509843518516534756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6498,7 +6498,7 @@ MonoBehaviour:
   - {fileID: 1509843518208358848}
   - {fileID: 1509843517911520696}
   potionImages:
-  - {fileID: 21300000, guid: 10c7cd678363bde428a3bb1b4e05b00e, type: 3}
+  - {fileID: 21300000, guid: abe137d9808cad74fb77a5bf20407797, type: 3}
   - {fileID: 21300000, guid: fcdb7f80a5c57274c836d33b94931e10, type: 3}
 --- !u!1 &1509843518529509315
 GameObject:
@@ -7138,7 +7138,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10c7cd678363bde428a3bb1b4e05b00e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: abe137d9808cad74fb77a5bf20407797, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

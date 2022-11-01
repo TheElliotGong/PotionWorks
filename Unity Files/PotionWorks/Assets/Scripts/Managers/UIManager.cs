@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Sprite[] potionImages;
     void Start()
     {
+        Time.timeScale = 1f;
         AudioManager.instance.SetAudio(1);
         finished = false;
         playerScore = 0;
@@ -70,7 +71,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowLevelResult()
     {
-        
+        Time.timeScale = 0f;
         if (playerScore >= highScore)
         {
             highScore = playerScore;
@@ -84,14 +85,23 @@ public class UIManager : MonoBehaviour
     public void LoadScene(string name)
     {
         Time.timeScale = 1f;
-        
-        SceneManager.LoadScene(name);
-        if (name == "Level_Select" || name == "Menu")
+       
+        if(launcher != null)
+        { 
+            launcher.levelDone = false;
+            finished = false;
+        }
+         SceneManager.LoadScene(name);
+        if(name == "Level_Select")
         {
             AudioManager.instance.SetAudio(0);
+
         }
-        launcher.levelDone = false;
-        finished = false;
+        else if(name == "Victory")
+        {
+            AudioManager.instance.SetAudio(4);
+
+        }
     }
 
     public void ShowPotionsAchieved()

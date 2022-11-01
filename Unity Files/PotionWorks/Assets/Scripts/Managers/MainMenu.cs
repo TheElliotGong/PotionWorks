@@ -7,6 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public static MainMenu instance;
+    private void Start()
+    {
+
+        if (SceneManager.GetActiveScene().name == "Menu")
+            AudioManager.instance.SetAudio(1);
+    }
     public void StartGame()
     {
         SceneManager.LoadScene("Level_Select");
@@ -20,11 +26,13 @@ public class MainMenu : MonoBehaviour
 
     public void OpenCredits()
     {
+
         SceneManager.LoadScene("Credits");
     }
 
     public void BackToMenu()
     {
         SceneManager.LoadScene("Menu");
+        AudioManager.instance.SetAudio(0);
     }
 }

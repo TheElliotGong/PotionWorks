@@ -37,12 +37,16 @@ public class LevelManager : MonoBehaviour
     {
         levelScores[index] = score;
         completed[index] = completionStatus; //Mark the current level as complete.
-        unlocked[index + 1] = completionStatus; //Unlock the next level if current level is completed.
+        if(index + 1 != levelScores.Length) //Check if last level is completed
+        {
+            unlocked[index + 1] = completionStatus; //Unlock the next level if current level is completed.
+        }
+         
     }
 
     public void BackToMain()
     {
         SceneManager.LoadScene("Menu");
     }
-
+    
 }

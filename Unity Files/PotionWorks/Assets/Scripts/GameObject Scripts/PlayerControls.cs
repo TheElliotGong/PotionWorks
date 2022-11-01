@@ -25,12 +25,12 @@ public class PlayerControls : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             foreach(GameObject gear in gears)
-                gear.transform.Rotate(new Vector3(0, 0, 80 * Time.deltaTime), Space.World);
+                gear.transform.Rotate(new Vector3(0, 0, 60 * Time.deltaTime), Space.World);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
             foreach (GameObject gear in gears)
-                gear.transform.Rotate(new Vector3(0, 0, -80 * Time.deltaTime), Space.World);
+                gear.transform.Rotate(new Vector3(0, 0, -60 * Time.deltaTime), Space.World);
         }
         
     }

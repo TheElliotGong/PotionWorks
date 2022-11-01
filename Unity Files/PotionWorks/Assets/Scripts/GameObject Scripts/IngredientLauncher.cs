@@ -32,6 +32,7 @@ public class IngredientLauncher : MonoBehaviour
     public Stack<int> ingredientStackLevelOne;
     public Stack<int> ingredientStackLevelTwo;
     public Stack<int> ingredientStackLevelThree;
+    public Stack<int> ingredientStackLevelFour;
     //Stacks of the actual item, when every thing is destroyed it will be null, right?
     public Stack<GameObject> gOIngredientStack;
 
@@ -44,7 +45,7 @@ public class IngredientLauncher : MonoBehaviour
         ingredientStackLevelOne = new Stack<int>();
         ingredientStackLevelTwo = new Stack<int>();
         ingredientStackLevelThree = new Stack<int>();
-
+        ingredientStackLevelFour = new Stack<int>();
         gOIngredientStack = new Stack<GameObject>();
         //fill up the ingredient list with greens for level one
         for(int i = 0; i < 4; i++)
@@ -63,6 +64,13 @@ public class IngredientLauncher : MonoBehaviour
         ingredientStackLevelThree.Push(2);
         ingredientStackLevelThree.Push(3);
         ingredientStackLevelThree.Push(0);
+
+        ingredientStackLevelFour.Push(1);
+        ingredientStackLevelFour.Push(0);
+        ingredientStackLevelFour.Push(1);
+        ingredientStackLevelFour.Push(0);
+        ingredientStackLevelFour.Push(0);
+        ingredientStackLevelFour.Push(1);
 
         levelDone = false;
         allIngredientsGone = false;
@@ -91,6 +99,10 @@ public class IngredientLauncher : MonoBehaviour
             ingredientStackLevelThree = NextIngredientShow(ingredientStackLevelThree);
         }
 
+        if(currentSceneName == "Level_4")
+        {
+            ingredientStackLevelFour = NextIngredientShow(ingredientStackLevelFour);
+        }
 
         Color white = new Color(255, 255, 255);
 
@@ -154,7 +166,7 @@ public class IngredientLauncher : MonoBehaviour
     /// </summary>
     Stack<int> IngredientLaunch(Stack<int> ingredientStack)
     {
-        Vector3 spawnPosition = new Vector3(launcher.transform.position.x, launcher.transform.position.y, launcher.transform.position.z);
+        Vector3 spawnPosition = new Vector3(launcher.transform.position.x, launcher.transform.position.y, 5f);
         if(ingredientStack.Peek() == 0)
         {
             GameObject greenIng = Instantiate(greenIngredient, spawnPosition, Quaternion.identity);
