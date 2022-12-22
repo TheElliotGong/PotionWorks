@@ -1,2 +1,3 @@
 # PotionWorks
-The repo for PotionWorks, by Team Any Ideas?
+
+The repository for the current build of Potionworks.
